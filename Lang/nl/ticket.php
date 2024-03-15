@@ -34,7 +34,7 @@ return array(
     "internal"                  => "Intern",
     "internal_ticket_desc"      => "Open een ticket alleen voor intern gebruik. Dit ticket wordt aangemaakt op je eigen naam, niet van een gebruiker.",
     "ticket_opened"             => "Je ticket is geopend.",
-    "enter_user_details"        => "Vul jou gegevens in of login op je account.",
+    "enter_user_details"        => "Vul jouw gegevens in of login op je account.",
     "already_have_account"      => "Je hebt al een account. Log in en open dan een ticket. Of gebruik de wachtwoord vergeten optie.",
 
     "recent_tickets"            => "Recente tickets",
