@@ -65,12 +65,6 @@ return array(
     "submit_a_ticket"           => "Ticket indienen",
 
     /*
-     * 2.0.1
-     */
-
-    "post_install"              => "Om het systeem goed te laten functioneren, moet er een cron worden ingesteld. Lees onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>stappen na installatie</a> voor details over deze en andere aanbevolen acties om de functionaliteit en beveiliging te verbeteren.",
-
-    /*
      * 2.0.2
      */
     "required_requirements"     => "Server voldoet aan :required van de :total verpichte vereisten.",
@@ -111,15 +105,12 @@ return array(
     "allow_url_fopen"           => "'allow_url_fopen' Ingeschakeld ",
     "allow_url_fopen_failure"   => "Schakel 'allow_url_fopen' in het php.ini-bestand in om Gravatar en andere functies te gebruiken .",
     "allowed_methods"           => "HTTP Allowed Methods",
-    "help_allowed_methods"      => "De webserver moet alle onderstaande HTTP-methoden toestaan. Raadpleeg onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nieuwe installatie</a> documentatie voor meer informatie.",
 
     /*
      * 2.4.0
      */
     "mysql_server_version"      => "Server Versie >= :min",
     "mysql_server_version_desc" => "MySQL :min of nieuwer vereist voor SupportPal. Gevonden: ':version'.",
-    "mysql_client_version"      => "Client Versie >= :min (:mysqlnd_min voor MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client versie :min of nieuwer (:mysqlnd_min for MySQLnd) vereist voor SupportPal. Gevonden: ':version'.",
 
     "upgrade_step"              => "Stap :num van :total: ",
     "accept_eula"               => "EULA accepteren",
@@ -134,7 +125,6 @@ return array(
      */
     "press_to_begin"            => "Druk op de onderstaande knop om te beginnen.",
     "locked"                    => "Install/Upgrade Bezig",
-    "locked_desc"               => "Een vergrendelingsbestand gedetecteerd(:path).\nControleer of het installatieprogramma niet al actief is.\n\nDit bestand kan verwijderd worden als je zeker weet dat er geen andere installatie of upgrade wordt uitgevoerd.",
 
     "error_and_empty_database"  => "Er is een fout opgetreden. Mogelijk moet de database eerst leeggemaakt worden voordat je opnieuw begint.",
     "login_with_details"        => "Je kunt inloggen met de eerder opgegeven gegevens.",
@@ -192,4 +182,21 @@ return array(
      * 3.7.0
      */
     "troubleshooting_tips"      => "Tips voor het oplossen van problemen ",
+
+    /*
+     * 4.2.0
+     */
+    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
+    "running_upgrade"           => "Running app upgrade",
+    "upgrade_complete_success"  => "App upgrade completed successfully.",
+    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
+
+    /*
+     * 5.0.0
+     */
+    "mysql_client_version"      => "Client Versie >= :min (:mysqlnd_min voor MySQLnd)",
+    "mysql_client_version_desc" => "MySQL client versie :min of nieuwer (:mysqlnd_min for MySQLnd) vereist voor SupportPal. Gevonden: ':version'.",
+    "post_install"              => "Om het systeem goed te laten functioneren, moet er een cron worden ingesteld. Lees onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>stappen na installatie</a> voor details over deze en andere aanbevolen acties om de functionaliteit en beveiliging te verbeteren.",
+    "help_allowed_methods"      => "De webserver moet alle onderstaande HTTP-methoden toestaan. Raadpleeg onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nieuwe installatie</a> documentatie voor meer informatie.",
+
 );

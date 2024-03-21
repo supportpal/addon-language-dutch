@@ -150,7 +150,6 @@ return array(
      */
     "type_protected_desc"       => "Toggle om alleen te laten zien aan ingelogde gebruikers.",
     "article_feedback"          => "Artikel feedback",
-    "thank_you_for_feedback"    => "Bedankt voor je feedback op dit artikel.",
     "frontend_icon_desc"        => "Selecteer een <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> icoon om op de frontend voor dit type weer te geven, je kunt ook zoeken naar een aangepast pictogram dat niet in de lijst staat (beginnend met 'fa-').",
 
 );

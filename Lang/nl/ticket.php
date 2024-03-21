@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Recente tickets",
     "last_message_text"         => "Inhoud laatste bericht",
 
-    "set_due_time"              => "Deadline instellen",
-
     "settings"                  => "Ticketinstellingen",
 
     "priority"                  => "Prioriteit|Prioriteiten",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Toegelaten bijlagen",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> bekijkt dit ticket ook.",
     "draft_saved"               => "Concept opgeslagen op :time",
     "save_draft"                => "Concept bewaren",
     "discard_draft"             => "Concept verwijderen",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA|SLA",
     "specific_schedule"         => "Specifieke planningen",
     "calendar_hours_24"         => "Kalendaruren (24 uurs)",
-    "resolution_time"           => "SLA oplostijden",
-    "resolution_time_desc"      => "Stek de tijden in waarbinnen een ticket moet worden beantwoord en opgelost per prioriteit. De tijd telt alleen binnen de werktijden van de planning, decimale waarden kunnen worden gebruikt.",
-    "reply_within"              => "Antwoorden binnen",
-    "resolve_within"            => "Oplossen binnen",
     "plan"                      => "SLA",
     "sla_condition"             => "SLA voorwaarden",
     "sla_condition_desc"        => "Defininieer de ticketvoorwaarden voor controle of nieuwe tickets vallen onder deze SLA. Wanneer een ticket onder meerdere SLAs valt wordt er gekozen naar prioriteit. Deze prioteit kan worden aagepast in de lijst van SLAs.",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Alleen boven",
     "ticket_notes_messages"     => "Alleen in het bericht",
 
-    "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
     "unregistered_only"         => "Alleen ongeregistreerde gebruikers",
 
     "allow_unauth_users"        => "Sta ongeverifieerde gebruikers toe",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Standaard prioriteit",
     "default_priority_desc"     => "De standaard prioriteit op alle inkomende tickets via dit kanaal.",
-    "verbose_email_log"         => "Uitgebreid e-maillogboek",
 
     "last_reply"                => "Laatste antwoord",
     "opened_at"                 => "Geopend om",
@@ -276,7 +267,6 @@ return array(
     "add_tag"                   => "Tag toevoegen",
 
     "unlock"                    => "Unlocken",
-    "merge"                     => "Samenvoegen",
     "merged"                    => "Samengevoegd",
     "unmerge"                   => "Samenvoeging opheffen",
     "close_and_lock"            => "Sluiten en locken",
@@ -401,7 +391,6 @@ return array(
     "email_user_frontend"       => "E-mail gebruikers bij tickets die worden geopend op de frontend",
     "email_user_frontend_desc"  => "Selecteer of gebruikers een e-mail moeten krijgen wanneer ze op de frontend een ticket aanmaken.",
     "department_template_disabled" => "De afdelingstemplate in kwestie is uitgeschakeld, deze e-mail kan niet worden verstuurd.",
-    "verbose_email_log_desc"    => "Indien e-mailcollectie wordt gelogd is het aanbevolen dit alleen te gebruiken indien support dit nodig heeft voor debugging. Vijf dagen aan logs worden bewaard, oudere logs worden automatisch verwijderd.",
 
     /*
      * 2.2.0
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Toggle om de afdeling alleen te tonen aan ingelogde gebruikers en alleen e-mails te accepteren van gebruikers die actief zijn geregistreerd bij de helpdesk. Indien ingeschakeld, wordt een teruggestuurde e-mail verzonden naar niet-geregistreerde gebruikers die deze afdeling e-mailen. Om de e-mail te wijzigen of uit te schakelen, zie de sjabloonoptie 'Alleen geregistreerde gebruikers' hieronder.",
     "form_fields_desc"          => "Als je aanvullende informatie wilt verzamelen wanneer de gebruiker feedback geeft, kun je eigen velden instellen om hier op het formulier weer te geven. Het veldtype wordt vergrendeld zodra het formulier is ingevuld door een gebruiker.",
-    "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op de klanttevredenheidsscore) ",
     "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
     "delete_message"            => "Bericht verwijderen",
     "linked_tickets"            => "Gelinkte tickets",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Selecteer een afdelings-e-mailadres...",
     "record_public_desc"        => "Schakel in om dit :record alleen toegankelijk te maken voor jezelf.",
     "record_group_desc"         => "Als het :record alleen zichtbaar moet zijn voor bepaalde gebruikersgroepen. Laat leeg om zichtbaar te maken voor alle operators.",
-    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
 
     /*
      * 2.4.0
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Selecteer ticket om mee samen te voegen",
-    "search_number_or_subject"  => "Zoek op ticketnummer of onderwerp",
     "im_not_sure"               => "Ik weet het niet zeker",
     "auto_reply_detected"       => "Automatisch antwoord gedetecteerd - er wordt geen melding naar de gebruiker (s) gestuurd.",
     "cc_desc"                   => "Je kunt andere mensen naar dit ticket sturen door hier e-mailadressen in te voeren.",
@@ -544,5 +530,40 @@ return array(
      */
     "on_behalf_of"              => "Created on behalf of",
     "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> bekijkt dit ticket ook.",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "SLA oplostijden",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
 
 );

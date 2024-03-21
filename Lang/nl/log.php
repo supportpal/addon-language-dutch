@@ -71,7 +71,6 @@ return array(
     "ticket_tag_removed"                => "Tag :new_value verwijder van ticket #:rel.",
     "ticket_slaplan_updated"            => "SLA op ticket #:rel bijgewerkt van :old_value naar :new_value.",
     "ticket_duetime_updated"            => "Deadline op ticket #:rel bijgesteld naar :new_value.",
-    "ticket_duetime_paused"             => "Deadline op ticket #:rel gepauzeerd tot nieuw antwoord van gebruiker.",
     "ticket_customfield_updated"        => "Aangepast velden op ticket #:rel. bijgewerkt",
     "ticket_converted_user"             => "Intern ticket #:rel omgezet naar gebruikerticket.",
     "ticket_converted_internal"         => "Gebruiker ticket #:rel omgezet naar intern ticket.",
@@ -114,7 +113,6 @@ return array(
      */
     "ticket_brand_disabled_reply"       => "Antwoord kon niet worden toegevoegd omdat het ticket hoort bij een afgesloten merk #:rel.",
     "personal_signatures_updated"       => "Persoonlijke handtekening bijgewerkt.",
-    "operator_signatures_updated"       => ":rel's handtekening bijgewerkt.",
     "check_email_failed"                => "Error: Kon geen e-mail downloaden van account :old_value: ':rel'.",
     "ticket_added_cc"                   => "E-mail(s) :new_value toegevoegd aan  CC adreslijst voor ticket #:rel.",
     "ticket_removed_cc"                 => "E-mail(s) :old_value verwijderd uit  CC adresljist voor ticket #:rel.",
@@ -132,7 +130,6 @@ return array(
     "ticket_macro_applied"              => "De macro ':new_value' is uitgevoerd op ticket #:rel.",
     "ticket_macro_automatic"            => "De macro ':new_value' is automatisch uitgevoerd op ticket #:rel.",
     "email_template_not_found"          => "E-mail template ID ':new_value' niet gevonden, mail wordt niet verstuurd.",
-    "ticket_duetime_unset"              => "deadline van ticket #:rel. is verwijderd",
     "private_conversation_started"      => "Een conversatie is gestart met :rel.",
     "private_message_sent"              => "Een bericht is verstuurd naar :rel.",
     "not_imported_replies_disabled"     => "Een e-mail :extra_rel1 was ontvangen voor ticket #:rel, maar was niet geimporteerd omdat emailantwoorden zijn uitgeschakeld.",
@@ -166,8 +163,6 @@ return array(
     "email_send_failed"                 => "Kan e-mail niet verzenden .",
     "ticket_brand_updated"              => "Het merk op van ticket #:rel is bijgewerkt van :old_value naar :new_value.",
     "export_scheduled"                  => "Een export van gebruiker :rel is gepland.",
-    "export_generated"                  => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
-    "export_deleted"                    => "Export :old_value van gebruiker :rel is uit het systeem verwijderd.",
     "deleted_inactive_records"          => "Automatisch verwijderd :old_value inactief :rel.",
     "deleted_old_records"               => "Oude :rel records zijn automatisch verwijderd.",
     "sent_email_to_user_group"          => "E-mail in wachtrij geplaatst naar gebruikersgroep ':new_value' voor ticket #:rel.",
@@ -202,5 +197,61 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Artikel :rel is neutraal beoordeeld.",
+
+    /*
+     * 4.1.0
+     */
+    "user_merged"                       => "User :old_value merged into user :rel.",
+    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+
+    /*
+     * 5.0.0
+     */
+    "addon_activated"                   => "Activated :item (add-on) :rel.",
+    "addon_deactivated"                 => "Deactivated :item (add-on) :rel.",
+    "addon_installed"                   => "Installed :item (add-on) :rel.",
+    "addon_uninstalled"                 => "Uninstalled :item (add-on) :rel.",
+    "addon_cancelled"                   => "Cancelled :item (add-on) :rel.",
+    "addon_updated"                     => "Updated :item (add-on) :rel to version :new_value.",
+    "ticket_reply_duetime_updated"      => "Updated the reply due time on ticket #:rel to :new_value.",
+    "ticket_resolve_duetime_updated"    => "Updated the resolve due time on ticket #:rel to :new_value.",
+    "ticket_duetime_unset"              => "deadline van ticket #:rel. is verwijderd",
+    "ticket_reply_duetime_unset"        => "Unset the reply due time on ticket #:rel.",
+    "ticket_resolve_duetime_unset"      => "Unset the resolve due time on ticket #:rel.",
+    "ticket_duetime_paused"             => "Deadline op ticket #:rel gepauzeerd tot nieuw antwoord van gebruiker.",
+    "ticket_duetime_unpaused"           => "Unpaused the due times on ticket #:rel.",
+    "user_email_verified"               => "Verified their email address.",
+    "marked_email_as_verified"          => "Verified ownership of email address on behalf of user :rel.",
+    "user_invited_to_organisation"      => "User :rel invited to organisation :extra_rel1.",
+    "user_accepted_organisation_invite" => "User :rel accepted invitation to organisation :extra_rel1.",
+    "user_additional_email_verified"    => "Verified an additional email address (:new_value).",
+    "export_generated"                  => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
+    "export_deleted"                    => "Export :old_value van gebruiker :rel is uit het systeem verwijderd.",
+    "user_export_generated"             => "Export :new_value of user :rel has been generated and stored on the system.",
+
+    /*
+     * 5.0.2
+     */
+    "personal_reply_templates_updated"  => "Updated their reply templates.",
+
+    /*
+     * 5.1.0
+     */
+    "ticket_deleted_attachment"         => "Deleted attachment ':old_value' from ticket #:rel.",
+    "user_added_to_group"               => "User :rel added to user group :new_value.",
+    "user_removed_from_group"           => "User :rel removed from user group :old_value.",
+    "operator_added_to_group"           => "Operator :rel added to operator group :new_value.",
+    "operator_removed_from_group"       => "Operator :rel removed from operator group :old_value.",
+
+    /*
+     * 5.2.0
+     */
+    "background_job_deleted"            => "Deleted background job :rel.",
+    "background_job_retried"            => "Retried background job :rel.",
 
 );

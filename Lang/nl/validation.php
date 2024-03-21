@@ -82,11 +82,6 @@ return array(
     "logo"                      => "Het logo moet wijzen naar een geldige afbeelding (direct URL of relatief pad vanaf base directory).",
 
     /*
-     * 2.1.1
-     */
-    "old_password"              => "Het :attribute veld is ongeldig.",
-
-    /*
      * 2.2.0
      */
     "required_with_translation" => "De :translation vertaling voor het :attribute veld is verplicht als :values aanwezig zijn.",
@@ -169,14 +164,21 @@ return array(
     "starts_with"               => "Het :attribute moet beginnen met een van de volgende: :values.",
 
     /*
-     * 3.4.0
-     */
-    "password"                  => "Het wachtwoord is onjuist.",
-
-    /*
      * 3.5.0
      */
-    'phone'                     => "Het opgegeven telefoonnummer is onjuist",
+    "phone"                     => "Het opgegeven telefoonnummer is onjuist",
+
+    /*
+     * 4.3.0
+     */
+    "is_invalid"                => "The :attribute is invalid.",
+
+    /*
+     * 5.0.0
+     */
+    "current_password"           => "The password is incorrect.",
+    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
+    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
 
     /*
     |--------------------------------------------------------------------------
