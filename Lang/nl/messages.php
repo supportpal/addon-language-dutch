@@ -3,8 +3,8 @@
 return array(
 
     "deleted"               => "Verwijderd!",
-    "success"               => "Succes",
-    "error"                 => "Error",
+    "success"               => "Gelukt",
+    "error"                 => "Fout",
     "in_progress"           => "In behandeling",
 
     "save_order"            => "Proberen de nieuwe sortering van de items op te slaan",

@@ -18,7 +18,7 @@ return array(
     "access_level_desc"             => "Definieer het toegangsniveau van de gebruiker in de organisatie gebaseerd op het volgende schema:<br /><strong>Manager</strong> - Kan tickets opened van alle gebruikers in de oranisatie inzien en gebruikers beheren<br /><strong>Gebruiker</strong> - Kan alleen eigen tickets inzien",
     "manage_organisation"           => "Organisatie beheren",
     "leave_organisation"            => "Organisatie verlaten",
-    "user_membership"               => "Gebruikerlidmaatschap",
+    "user_membership"               => "Lidmaatschap gebruiker",
     "transfer_ownership"            => "Eigendom overdragen",
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kun je niet worden verwijderd als manager en alleen jij kunt de organisatie verwijderen. je kunt eigendom van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
@@ -71,8 +71,8 @@ return array(
     "role"                          => "Rol|Rollen",
 
     "operator_login_log"            => "Operator aanmeldingslogboek",
-    "system_activity_log"           => "Systeem logboek",
-    "activity_log"                  => "Activiteiten logboek",
+    "system_activity_log"           => "Systeemlogboek",
+    "activity_log"                  => "Activiteitenlogboek",
 
     "mass_email"                    => "Bulk e-mail versturen",
     "send_email"                    => "E-mail versturen",
@@ -264,7 +264,7 @@ return array(
     /*
      * 2.4.0
      */
-    "must_have_permission"          => "Je moet de  \":permission\" permissie hebben om dit te kunnen doen",
+    "must_have_permission"          => "Je moet  \":permission\" rechten hebben om dit te kunnen doen",
     "deleted_user"                  => "Verwijderde gebruiker",
     "access_level_not_owner"        => "Het is niet mogelijk om het toegangsniveau van organisatie-eigenaren te wijzigen. Draag eerst het eigendom van de organisatie over aan een andere gebruiker door de organisatie te bekijken en op het tabblad 'Gebruikers' te klikken.",
 
@@ -286,7 +286,7 @@ return array(
     "unconfirmed_account"           => "Controleer je e-mail om te bevestigen dat je eigenaar bent van dit e-mailadres.",
     "success_register_desc"         => "Bedankt voor het registreren van een account. Controleer je e-mail om de accountconfiguratie te voltooien.",
     "resend_confirmation_sent"      => "Er is een nieuwe bevestigings-e-mail verzonden die binnen enkele minuten aankomt.",
-    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van je e-mail. Voer hieronder een wachtwoord in om het instellen van je account te voltooien .",
+    "register_confirm_desc"         => "Bedankt voor het bevestigen van het eigendom van je e-mailadres. Voer hieronder een wachtwoord in om het instellen van je account te voltooien .",
     "thank_you_confirm"             => "Bedankt voor het bevestigen van het eigendom van je e-mailadres. ",
     "use_gravatar"                  => "Gravatar gebruiken",
     "use_gravatar_desc"             => "Gravatar is een service die een wereldwijd erkende avatar biedt aan zijn geregistreerde gebruikers. De helpdesk stuurt automatisch een verzoek naar secure.gravatar.com met een MD5-hash van elk e-mailadres van de gebruiker om te helpen bij het weergeven van een avatar. De MD5-hash kan ook publiekelijk zichtbaar zijn in de frontend-HTML. We raden aan om uw privacybeleid bij te werken als je deze functie inschakelt.",
@@ -297,7 +297,7 @@ return array(
     "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
     "confirmation"                  => "Bevestiging",
     "confirmation_email_in_use"     => "Het e-mailadres wordt al gebruikt door een andere account.",
-    "continue_to_login"             => "Ga verder naar <a href=':route'>login</a>.",
+    "continue_to_login"             => "Ga verder naar <a href=':route'>inloggen</a>.",
     "reset_request_desc"            => "Als er een account is gevonden, ontvangt je binnenkort een e-mail waarmee je wachtwoord opnieuw kunt instellen.",
     "password_reset_error"          => "De link is mogelijk verlopen. Als je link om wat voor reden dan ook niet werkt, vraag dan een nieuwe aan.",
 
@@ -342,11 +342,11 @@ return array(
     /**
      * 4.0.0
      */
-    "verify_phone_number"           => "Verify Phone Number",
-    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
-    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
-    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
-    "verify_phone_code_error"       => "Code could not be verified.",
-    "logged_in_as"                  => "Logged in as :name",
+    "verify_phone_number"           => "Telefoonnummer verifiëren",
+    "verify_phone_method"           => "Selecteer de methode waarmee u uw telefoonnummer wilt verifiëren.",
+    "verify_phone_code_sent"        => "Er is een verificatiecode naar uw telefoonnummer gestuurd. Voer deze code hieronder in.",
+    "verify_phone_code_send_error"  => "Er is een fout opgetreden tijdens het verzenden van de verificatiecode. Probeer het later nog eens.",
+    "verify_phone_code_error"       => "Code kon niet worden geverifieerd.",
+    "logged_in_as"                  => "Ingelogd als :name",
 
 );

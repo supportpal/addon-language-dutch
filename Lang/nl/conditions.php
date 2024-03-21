@@ -6,9 +6,9 @@ return array(
      */
     "assigned_operator"                 => "Toegewezen operator",
     "assigned_operator_group"           => "Toegewezen operatorgroep",
-    "hours_since_created"               => "Uren sinds melding",
+    "hours_since_created"               => "Uren sinds aangemaakt",
     "hours_since_updated"               => "Uren sinds update",
-    "internal_ticket"                   => "Intern ticket",
+    "internal_ticket"                   => "Interne ticket",
     "involved_operator"                 => "Betrokken operator",
     "last_ticket_replier"               => "Laatste antwoord van",
     "ticket_channel"                    => "Ticket kanaal",
@@ -17,7 +17,7 @@ return array(
     "ticket_department"                 => "Ticket afdeling",
     "ticket_due_time"                   => "Ticket deadline",
     "ticket_message_content"            => "Ticket inhoud",
-    "ticket_message_count"              => "Ticket bericht (aantal)",
+    "ticket_message_count"              => "Aantal tickets",
     "ticket_priority"                   => "Ticket prioriteit",
     "ticket_sla_plan"                   => "Ticket SLA",
     "ticket_status"                     => "Ticket status",
@@ -62,7 +62,7 @@ return array(
     "ticket_cc"                         => "Ticket CC",
     "ticket_custom_field"               => "Ticket aangepast veld",
     "user_custom_field"                 => "Gebruiker aangepast veld",
-    "user_organisation_custom_field"    => "Gebruikersorganisatie  aangepast veld",
+    "user_organisation_custom_field"    => "Gebruikersorganisatie aangepast veld",
     "user_organisation"                 => "Gebruikersorganisatie naam",
     "user_organisation_brand"           => "Gebruikersorganisatie merk",
     "user_organisation_country"         => "Gebruikersorganisatie land",
@@ -74,7 +74,7 @@ return array(
      * 2.4.0
      */
     "watching_operator"                 => "Kijkende operator",
-    "exact_search_quotes"               => "Om een exacte zoekopdracht naar de zin uit te voeren, plaats je deze tussen aanhalingstekens, zoals \"my phrase\".",
+    "exact_search_quotes"               => "Voor een exacte zoekopdracht, plaats de zin tussen aanhalingstekens. Voorbeeld \"my phrase\".",
 
     /*
      * 2.4.1
@@ -84,7 +84,7 @@ return array(
     /*
      * 2.5.0
      */
-    "user_email_confirmed"              => "E-mail adres Gebruiker bevestigd",
+    "user_email_confirmed"              => "E-mail adres gebruiker bevestigd",
 
     /*
      * 3.0.0

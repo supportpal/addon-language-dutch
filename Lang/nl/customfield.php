@@ -48,7 +48,7 @@ return array(
     "regex_error_message"       => "Validatiefoutbericht",
     "regex_error_message_desc"  => "Optionally specify a custom error message that will be shown if the value does not match the regex validation, otherwise a generic message will be shown. The message will be shown exactly as entered, therefore we recommend to include the custom field name to make the error message more obvious.",
     "custom_field_values"       => "Aangepaste veldwaarden",
-    "depends_on"                => "Afhankelijk Van",
+    "depends_on"                => "Afhankelijk van",
     "depends_on_desc"           => "Indien geselecteerd, wordt dit veld alleen aan de gebruiker getoond wanneer de opgegeven veldwaarde is geselecteerd. De zichtbaarheid van het merk en de afdeling wordt automatisch overgenomen van het veld waarvan het afhankelijk is. ",
     "select_option"             => "Selecteer een optie...",
     "purge"                     => "Opschonen",

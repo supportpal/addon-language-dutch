@@ -11,7 +11,7 @@ return array(
     "operator_login"        => "Operator aangemeld",
     "operator_login_text"   => ":name is ingelogd op het operatorpanel.",
 
-    "failed_logins"         => "Misluke Operator Logins",
+    "failed_logins"         => "Misluke operator logins",
     "new_comments"          => "Nieuwe reacties",
 
     /*

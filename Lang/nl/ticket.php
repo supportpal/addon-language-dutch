@@ -88,15 +88,15 @@ return array(
     "department_encryption"     => "Sommige e-mailproviders hebben SSL- of TLS-codering nodig om verbinding te maken. Als je het niet zeker weet, laat deze instelling dan op geen staan .",
     "department_delete_mail"    => "Wanneer IMAP gebruikt wordt is het mogelijk te kiezen om de e-mail niet uit de mailbox te verwijderen wanneer ze zijn geimporteerd als tickets.",
     "protocol"                  => "Protocol",
-    "server"                    => "Mail Server",
+    "server"                    => "Mailserver",
     "port"                      => "Poort",
     "encryption"                => "Versleuteling",
     "delete_downloaded"         => "Verwijder gedownloade e-mail",
     "consume_all"               => "Consumeer alle e-mail",
-    "email_download"            => "E-mail Download",
-    "email_piping"              => "E-mail Piping",
+    "email_download"            => "E-mail download",
+    "email_piping"              => "E-mail piping",
     "email_piping_desc"         => "Stel een e-mailforwarder in zoals hieronder, het PHP-uitvoerbare pad kan per server anders zijn. ",
-    "remote_email_piping"       => "Remote E-mail Piping",
+    "remote_email_piping"       => "Remote e-mail piping",
 
     // Department email options
     "email_options"             => "E-mail opties",
@@ -200,15 +200,15 @@ return array(
     "condition"                 => "Voorwaarde",
     "condition_group"           => "Voorwaardegroep",
     "all_groups"                => "ALLE groepen moeten waar zijn",
-    "any_group"                 => "EEN groep hoeft slechts waar te zijn",
+    "any_group"                 => "ÉÉN groep hoeft slechts waar te zijn",
     "all_conditions"            => "ALLE voorwaarden binnen de groep moeten waar zijn",
-    "any_condition"             => "EEN voorwaarde binnen de groep hoeft slects waar te zijn",
+    "any_condition"             => "ÉÉN voorwaarde binnen de groep hoeft slects waar te zijn",
     "sla_plan_desc"             => "SLAs worden verwerkt in de volgorde waarop ze getoond worden. Verplaats de regels om de prioteit aan te passen.",
 
     // Reply options
     "reply_options"             => "Antwoord opties",
-    "send_email_to_users"       => "Stuur E-mail naar gebruiker(s)",
-    "send_email_to_operators"   => "Stuur E-mail naar operator(s)",
+    "send_email_to_users"       => "Stuur e-mail naar gebruiker(s)",
+    "send_email_to_operators"   => "Stuur e-mail naar operator(s)",
     "back_to_grid"              => "Terug naar ticketoverzicht",
     "take"                      => "Neem",
     "take_ownership"            => "Neem eigendom",
@@ -275,7 +275,7 @@ return array(
     "change_priority"           => "Prioriteit wijzigen",
     "add_tag"                   => "Tag toevoegen",
 
-    "unlock"                    => "Unlocken",
+    "unlock"                    => "Ontgrendelen",
     "merge"                     => "Samenvoegen",
     "merged"                    => "Samengevoegd",
     "unmerge"                   => "Samenvoeging opheffen",
@@ -397,7 +397,7 @@ return array(
     "email_template_desc"       => "Je kunt een e-mailtemplate selecteren welke gebruikt zal worden ipv de standaard om verzonden te worden naar de gebruiker of operators voor elke van de onderstaande acties. Deze template zal alleen voor deze afdeling standaard worden.",
     "create_new_user"           => "Maak nieuwe gebruiker",
     "user_reply_internal_ticket" => "Geen operator. Alleen operators kunnen een intern ticket beantwoorden.",
-    "enter_email_address"       => "Vul een e-mailadress in...",
+    "enter_email_address"       => "Vul een e-mailadres in...",
     "email_user_frontend"       => "E-mail gebruikers bij tickets die worden geopend op de frontend",
     "email_user_frontend_desc"  => "Selecteer of gebruikers een e-mail moeten krijgen wanneer ze op de frontend een ticket aanmaken.",
     "department_template_disabled" => "De afdelingstemplate in kwestie is uitgeschakeld, deze e-mail kan niet worden verstuurd.",
@@ -412,7 +412,7 @@ return array(
     "response_desc"             => "Het Standaardantwoord kan in verschillende talen worden geschreven. Het passende antwoord zal automatisch de door de gebruiker ingestelde taal gebruiken.",
     "no_slaplans"               => "Geen SLA gevonden. Klik <a href=':route'>hier</a> om er een aan te maken.",
     "filter_performance"        => "Prestatieoverwegingen en -aanbevelingen",
-    "filter_performance_desc"   => "<li>Filters die meerdere tickets bestrijken zullen langzamer zijn. Probeer zoveel mogelijk opgeloste tickets uit te sluiten.</li><li>Filters met een 'is not'-voorwaarde zijn langzamer dan met een  'is'-voorwaarde.</li><li>Filters die checken voor NULL waardes (zoals ticket tag is None) zijn langzamer.</li><li>Beperk gebruik van meerdere voorwaardes die strings/woorden checken omdat dit meer complexiteit brengt.</li><li>Filters met 'begint met' of 'bevat' voorwaardes zijn langzamer dan 'is gelijk' of 'eindigt op'.</li><li>Opgelost tickets worden niet meegeteld in de sidebar.</li>",
+    "filter_performance_desc"   => "<li>Filters die meerdere tickets bestrijken zullen langzamer zijn. Probeer zoveel mogelijk opgeloste tickets uit te sluiten.</li><li>Filters met een 'is niet'-voorwaarde zijn langzamer dan met een  'is'-voorwaarde.</li><li>Filters die checken voor NULL waardes (zoals ticket tag is None) zijn langzamer.</li><li>Beperk gebruik van meerdere voorwaardes die strings/woorden checken omdat dit meer complexiteit brengt.</li><li>Filters met 'begint met' of 'bevat' voorwaardes zijn langzamer dan 'is gelijk' of 'eindigt op'.</li><li>Opgelost tickets worden niet meegeteld in de sidebar.</li>",
     "run_macro"                 => "Macro uitvoeren",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
 
@@ -475,7 +475,7 @@ return array(
     "webhook_ticket_required"   => "Er moet een ticket zijn om deze functionaliteit te laten werken.",
     "not_permitted"             => "Sorry, het is niet toegestaan om de gevraagde ticket (s) te bekijken. Als dit ten onrechte is weergegeven, neem dan contact op met de beheerder.",
     "watch"                     => "Monitoren",
-    "unwatch"                   => "Unmonitor",
+    "unwatch"                   => "Niet meer monitoren",
     "watching"                  => "Gemonitord",
     "internal_ticket"           => "Interne ticket|Interne tickets",
 
@@ -542,7 +542,7 @@ return array(
     /*
      * 4.0.0
      */
-    "on_behalf_of"              => "Created on behalf of",
-    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+    "on_behalf_of"              => "Aangemaakt in naam van",
+    "reply_canned_be_posted"    => "Het is momenteel niet mogelijk om dit ticket te beantwoorden; het kanaal of account is mogelijk uitgeschakeld.",
 
 );
