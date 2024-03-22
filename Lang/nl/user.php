@@ -326,20 +326,20 @@ return array(
     /*
      * 4.1.0
      */
-    "merge_users"                   => "Merge Users",
-    "merge_user_into"               => "Select user to merge into",
-    "merge_organisations"           => "Merge Organisations",
-    "merge_organisation_into"       => "Select organisation to merge into",
-    "search_for_organisation"       => "Search for organisation...",
+    "merge_users"                   => "Gebruikers samenvoegen",
+    "merge_user_into"               => "Selecteer de gebruiker om in samen te voegen",
+    "merge_organisations"           => "Voeg organisaties samen",
+    "merge_organisation_into"       => "Selecteer de organisatie om in samen te voegen",
+    "search_for_organisation"       => "Zoek organisatie...",
 
     /*
      * 4.2.0
      */
-    "reply_template"                => "Reply Template|Reply Templates",
-    "reply_template_desc"           => "Set a personal reply template that prefills the textarea when starting to compose a reply, with the option to customise based on the brand/department of the ticket. The default reply template is used when a reply template for a specific department and/or brand cannot be found.",
-    "operator_reply_template"       => "Operator Reply Template|Operator Reply Templates",
-    "ticket_reply_template_desc"    => "Set the operator's default ticket reply template.",
-    "operator_reply_template_desc"  => "Further reply templates for specific departments and/or brands can be set in the <a href=':route' target='_blank'>Operator Reply Templates</a> section.",
+    "reply_template"                => "Antwoord Sjabloon|Antwoord Sjablonen",
+    "reply_template_desc"           => "Stel een persoonlijk antwoordsjabloon in dat het tekstveld vooraf vult wanneer je een antwoord begint samen te stellen, met de optie om aan te passen op basis van het merk/de afdeling van het ticket. De standaard antwoordsjabloon wordt gebruikt als er geen antwoordsjabloon voor een specifieke afdeling en/of merk kan worden gevonden.",
+    "operator_reply_template"       => "Operator Antwoord Sjabloon|Operator Antwoord Sjablonen",
+    "ticket_reply_template_desc"    => "Stel het standaard sjabloon in voor antwoorden van de operator",
+    "operator_reply_template_desc"  => "Meer antwoordsjablonen voor specifieke afdelingen en/of merken kunnen worden ingesteld in het gedeelte <a href=':route' target='_blank'>Operator Antwoordsjablonen</a>.",
 
     /*
      * 5.0.0

@@ -111,6 +111,6 @@ return array(
     /*
      * 5.0.0
      */
-    "user_email_verified"               => "User email verified",
-    "ticket_has_followup"               => "Ticket has follow up",
+    "user_email_verified"               => "E-mailadres van gebruiker geverifieerd",
+    "ticket_has_followup"               => "Ticket heeft opvolging",
 );

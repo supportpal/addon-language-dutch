@@ -545,21 +545,21 @@ return array(
     /*
      * 5.0.0
      */
-    "also_viewing"              => "<strong>:name</strong> bekijkt dit ticket ook.",
-    "mark_as_read"              => "Mark as Read",
-    "mark_as_unread"            => "Mark as Unread",
-    "sla_targets"               => "SLA Target|SLA Targets",
-    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
-    "first_reply_time"          => "First Reply Time",
-    "next_reply_time"           => "Next Reply Time",
-    "resolution_time"           => "SLA oplostijden",
-    "reply_due_in"              => "Reply due :time",
-    "resolve_in"                => "Resolve :time",
-    "paused_ago"                => "Paused :time",
-    "reply_due_time"            => "Reply due time",
-    "resolution_due_time"       => "Resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "set_resolution_due_time"   => "Set resolution due time",
+    "also_viewing"              => "Ook aan het bekijken ticket:",
+    "mark_as_read"              => "Markeer als gelezen",
+    "mark_as_unread"            => "Markeer als ongelezen",
+    "sla_targets"               => "SLA doel|SLA doelen",
+    "sla_targets_desc"          => "Stelt doeltijden in waarop een ticket moet worden beantwoord en opgelost per prioriteit. De tijd wordt alleen geteld tijdens kantooruren op basis van het (de) gekozen schema('s), decimale waarden kunnen worden gebruikt. Laat de waarde leeg om geen doel in te stellen voor die prioriteit..",
+    "first_reply_time"          => "Tijd tot eerste antwoord",
+    "next_reply_time"           => "Tijd tot tweede antwoord",
+    "resolution_time"           => "Tijd tot oplossen",
+    "reply_due_in"              => "Antwoord tijd :time",
+    "resolve_in"                => "Oplossen :time",
+    "paused_ago"                => "Gepauzeerd :time",
+    "reply_due_time"            => "Antwoorden in",
+    "resolution_due_time"       => "Oplossen in",
+    "set_reply_due_time"        => "Stel de antwoordtijd in",
+    "set_resolution_due_time"   => "Stel de oplostijd in",
 
     /*
      * 5.2.0

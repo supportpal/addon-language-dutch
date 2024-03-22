@@ -171,15 +171,14 @@ return array(
     /*
      * 4.3.0
      */
-    "is_invalid"                => "The :attribute is invalid.",
+    "is_invalid"                => "Het :attribute is niet geldig.",
 
     /*
      * 5.0.0
      */
-    "current_password"           => "The password is incorrect.",
-    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
-    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
-
+    "current_password"           => "Het wachtwoord is onjuist.",
+    "department_email_per_brand" => "Er moet een e-mailaccount bestaan voor elk merk dat aan deze afdeling is toegewezen.",
+    "department_has_a_priority"  => "Afdeling(en) :afdelingen zijn openbaar en moeten aan minstens één prioriteit worden toegewezen.",
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
