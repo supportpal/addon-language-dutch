@@ -179,6 +179,7 @@ return array(
     "current_password"           => "Het wachtwoord is onjuist.",
     "department_email_per_brand" => "Er moet een e-mailaccount bestaan voor elk merk dat aan deze afdeling is toegewezen.",
     "department_has_a_priority"  => "Afdeling(en) :afdelingen zijn openbaar en moeten aan minstens één prioriteit worden toegewezen.",
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
