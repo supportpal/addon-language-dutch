@@ -120,21 +120,21 @@ return array(
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Bekijk en beheer Add-ons",
+    "system_health"     => "Bekijk systeemgezondheid",
 
     /*
      * 4.2.0
      */
-    "operatorreplytemplate" => "Manage Operator Reply Templates",
+    "operatorreplytemplate" => "Antwoordsjablonen voor operator beheren",
 
     /*
      * 5.0.0
      */
-    "private_messaging" => "View Private Messages",
+    "private_messaging" => "Bekijk privé berichten",
 
     /*
      * 5.1.0
      */
-    "manage_report"     => "Manage Reports",
+    "manage_report"     => "Beheer rapporten",
 );

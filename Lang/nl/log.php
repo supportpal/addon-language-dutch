@@ -189,9 +189,9 @@ return array(
     /*
      * 2.6.0
      */
-    "ticket_followup_set"               => "Nieuwe follow-up ingesteld op ticket  #:rel.",
-    "ticket_followup_updated"           => "Follow-up bijgewerkt op ticket #:rel.",
-    "ticket_followup_deleted"           => "follow-up verwijderd op ticket #:rel.",
+    "ticket_followup_set"               => "Nieuwe opvolging ingesteld op ticket  #:rel.",
+    "ticket_followup_updated"           => "Opvolging bijgewerkt op ticket #:rel.",
+    "ticket_followup_deleted"           => "Opvolging verwijderd op ticket #:rel.",
 
     /*
      * 3.0.0
@@ -201,57 +201,57 @@ return array(
     /*
      * 4.1.0
      */
-    "user_merged"                       => "User :old_value merged into user :rel.",
-    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+    "user_merged"                       => "Gebruiker :old_value samengevoegd in gebruiker :rel.",
+    "user_organisation_merged"          => "Gebruikersorganisatie :old_value samengevoegd in gebruikersorganisatie :rel.",
 
     /*
      * 4.2.0
      */
-    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+    "operator_reply_templates_updated"  => ":rel's antwoordsjablonen bijgewerkt.",
 
     /*
      * 5.0.0
      */
-    "addon_activated"                   => "Activated :item (add-on) :rel.",
-    "addon_deactivated"                 => "Deactivated :item (add-on) :rel.",
-    "addon_installed"                   => "Installed :item (add-on) :rel.",
-    "addon_uninstalled"                 => "Uninstalled :item (add-on) :rel.",
-    "addon_cancelled"                   => "Cancelled :item (add-on) :rel.",
-    "addon_updated"                     => "Updated :item (add-on) :rel to version :new_value.",
-    "ticket_reply_duetime_updated"      => "Updated the reply due time on ticket #:rel to :new_value.",
-    "ticket_resolve_duetime_updated"    => "Updated the resolve due time on ticket #:rel to :new_value.",
-    "ticket_duetime_unset"              => "deadline van ticket #:rel. is verwijderd",
-    "ticket_reply_duetime_unset"        => "Unset the reply due time on ticket #:rel.",
-    "ticket_resolve_duetime_unset"      => "Unset the resolve due time on ticket #:rel.",
-    "ticket_duetime_paused"             => "Deadline op ticket #:rel gepauzeerd tot nieuw antwoord van gebruiker.",
-    "ticket_duetime_unpaused"           => "Unpaused the due times on ticket #:rel.",
-    "user_email_verified"               => "Verified their email address.",
-    "marked_email_as_verified"          => "Verified ownership of email address on behalf of user :rel.",
-    "user_invited_to_organisation"      => "User :rel invited to organisation :extra_rel1.",
-    "user_accepted_organisation_invite" => "User :rel accepted invitation to organisation :extra_rel1.",
-    "user_additional_email_verified"    => "Verified an additional email address (:new_value).",
+    "addon_activated"                   => "Geactiveerd :item (add-on) :rel.",
+    "addon_deactivated"                 => "Gedeactiveerd :item (add-on) :rel.",
+    "addon_installed"                   => "Geïnstalleerd :item (add-on) :rel.",
+    "addon_uninstalled"                 => "Gedeïnstalleerd :item (add-on) :rel.",
+    "addon_cancelled"                   => "Geannuleerd :item (add-on) :rel.",
+    "addon_updated"                     => "Bijgewerkt :item (add-on) :rel naar versie :new_value.",
+    "ticket_reply_duetime_updated"      => "De antwoorddeadline op ticket #:rel is bijgewerkt naar :new_value.",
+    "ticket_resolve_duetime_updated"    => "De oplosdeadline op ticket #:rel is bijgewerkt naar :new_value.",
+    "ticket_duetime_unset"              => "Deadline van ticket #:rel is verwijderd.",
+    "ticket_reply_duetime_unset"        => "De antwoorddeadline op ticket #:rel is verwijderd.",
+    "ticket_resolve_duetime_unset"      => "De oplosdeadline op ticket #:rel is verwijderd.",
+    "ticket_duetime_paused"             => "Deadline op ticket #:rel is gepauzeerd tot nieuw antwoord van gebruiker.",
+    "ticket_duetime_unpaused"           => "De deadlines op ticket #:rel zijn hervat.",
+    "user_email_verified"               => "Het e-mailadres is geverifieerd.",
+    "marked_email_as_verified"          => "Eigenaarschap van het e-mailadres is namens gebruiker :rel geverifieerd.",
+    "user_invited_to_organisation"      => "Gebruiker :rel is uitgenodigd voor organisatie :extra_rel1.",
+    "user_accepted_organisation_invite" => "Gebruiker :rel heeft de uitnodiging voor organisatie :extra_rel1 geaccepteerd.",
+    "user_additional_email_verified"    => "Een extra e-mailadres (:new_value) is geverifieerd.",
     "export_generated"                  => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
     "export_deleted"                    => "Export :old_value van gebruiker :rel is uit het systeem verwijderd.",
-    "user_export_generated"             => "Export :new_value of user :rel has been generated and stored on the system.",
+    "user_export_generated"             => "Export :new_value van gebruiker :rel is gegenereerd en opgeslagen op het systeem.",
 
     /*
      * 5.0.2
      */
-    "personal_reply_templates_updated"  => "Updated their reply templates.",
+    "personal_reply_templates_updated"  => "Hun antwoordsjablonen bijgewerkt.",
 
     /*
      * 5.1.0
      */
-    "ticket_deleted_attachment"         => "Deleted attachment ':old_value' from ticket #:rel.",
-    "user_added_to_group"               => "User :rel added to user group :new_value.",
-    "user_removed_from_group"           => "User :rel removed from user group :old_value.",
-    "operator_added_to_group"           => "Operator :rel added to operator group :new_value.",
-    "operator_removed_from_group"       => "Operator :rel removed from operator group :old_value.",
+    "ticket_deleted_attachment"         => "Verwijderde bijlage ':old_value' van ticket #:rel.",
+    "user_added_to_group"               => "Gebruiker :rel toegevoegd aan gebruikersgroep :new_value.",
+    "user_removed_from_group"           => "Gebruiker :rel verwijderd uit gebruikersgroep :old_value.",
+    "operator_added_to_group"           => "Operator :rel toegevoegd aan operatorgroep :new_value.",
+    "operator_removed_from_group"       => "Operator :rel verwijderd uit operatorgroep :old_value.",
 
     /*
      * 5.2.0
      */
-    "background_job_deleted"            => "Deleted background job :rel.",
-    "background_job_retried"            => "Retried background job :rel.",
+    "background_job_deleted"            => "Verwijderde achtergrondtaak :rel.",
+    "background_job_retried"            => "Opnieuw geprobeerde achtergrondtaak :rel."
 
 );

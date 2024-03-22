@@ -3,8 +3,8 @@
 return array(
 
     "deleted"               => "Verwijderd!",
-    "success"               => "Succes",
-    "error"                 => "Error",
+    "success"               => "Gelukt",
+    "error"                 => "Fout",
     "in_progress"           => "In behandeling",
 
     "save_order"            => "Proberen de nieuwe sortering van de items op te slaan",
@@ -151,6 +151,7 @@ return array(
     "popup_blocked"         => "Je browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
     "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
+
     /*
      * 4.1.1
      */
@@ -165,7 +166,7 @@ return array(
     /*
      * 5.0.0
      */
-    "lock_timeout"          => "Lock Timeout",
-    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+    "lock_timeout"          => "Time-out vergrendeling",
+    "lock_timeout_desc"     => "De server is momenteel bezig met het verwerken van andere verzoeken. Probeer het opnieuw.",
 
 );

@@ -18,7 +18,7 @@ return array(
     "access_level_desc"             => "Definieer het toegangsniveau van de gebruiker in de organisatie gebaseerd op het volgende schema:<br /><strong>Manager</strong> - Kan tickets opened van alle gebruikers in de oranisatie inzien en gebruikers beheren<br /><strong>Gebruiker</strong> - Kan alleen eigen tickets inzien",
     "manage_organisation"           => "Organisatie beheren",
     "leave_organisation"            => "Organisatie verlaten",
-    "user_membership"               => "Gebruikerlidmaatschap",
+    "user_membership"               => "Lidmaatschap gebruiker",
     "transfer_ownership"            => "Eigendom overdragen",
     "transfer_ownership_desc"       => "Als huidige eigenaar van de organisatie kun je niet worden verwijderd als manager en alleen jij kunt de organisatie verwijderen. je kunt eigendom van de organisatie wel overdragen aan iemand anders. Deze actie kan niet ongedaan worden.",
     "transfer_ownership_operator"   => "Alleen de eigenaar kan de organisatie verwijderen en eruit verwijderen. Gebruik deze optie om eigendom over te zetten naar een andere gebruiker in de organisatie.",
@@ -67,8 +67,8 @@ return array(
     "role"                          => "Rol|Rollen",
 
     "operator_login_log"            => "Operator aanmeldingslogboek",
-    "system_activity_log"           => "Systeem logboek",
-    "activity_log"                  => "Activiteiten logboek",
+    "system_activity_log"           => "Systeemlogboek",
+    "activity_log"                  => "Activiteitenlogboek",
 
     "mass_email"                    => "Bulk e-mail versturen",
     "send_email"                    => "E-mail versturen",
@@ -253,7 +253,7 @@ return array(
     /*
      * 2.4.0
      */
-    "must_have_permission"          => "Je moet de  \":permission\" permissie hebben om dit te kunnen doen",
+    "must_have_permission"          => "Je moet  \":permission\" rechten hebben om dit te kunnen doen",
     "deleted_user"                  => "Verwijderde gebruiker",
     "access_level_not_owner"        => "Het is niet mogelijk om het toegangsniveau van organisatie-eigenaren te wijzigen. Draag eerst het eigendom van de organisatie over aan een andere gebruiker door de organisatie te bekijken en op het tabblad 'Gebruikers' te klikken.",
 
@@ -316,12 +316,12 @@ return array(
     /*
      * 4.0.0
      */
-    "verify_phone_number"           => "Verify Phone Number",
-    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
-    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
-    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
-    "verify_phone_code_error"       => "Code could not be verified.",
-    "logged_in_as"                  => "Logged in as :name",
+    "verify_phone_number"           => "Telefoonnummer verifiëren",
+    "verify_phone_method"           => "Selecteer de methode waarmee u uw telefoonnummer wilt verifiëren.",
+    "verify_phone_code_sent"        => "Er is een verificatiecode naar uw telefoonnummer gestuurd. Voer deze code hieronder in.",
+    "verify_phone_code_send_error"  => "Er is een fout opgetreden tijdens het verzenden van de verificatiecode. Probeer het later nog eens.",
+    "verify_phone_code_error"       => "Code kon niet worden geverifieerd.",
+    "logged_in_as"                  => "Ingelogd als :name",
 
     /*
      * 4.1.0
@@ -344,33 +344,33 @@ return array(
     /*
      * 5.0.0
      */
-    "verified"                      => "Verified",
-    "unverified"                    => "Unverified",
-    "unverified_email_desc"         => "User has not verified ownership of this email address.",
-    "unverified_account"            => "Please check your email to verify ownership of this email address.",
+    "verified"                      => "Geverifieerd",
+    "unverified"                    => "Niet geverifieerd",
+    "unverified_email_desc"         => "De gebruiker heeft het eigendom van dit e-mailadres niet geverifieerd.",
+    "unverified_account"            => "Controleer je e-mail om het eigendom van dit e-mailadres te verifiëren.",
     "changing_email_desc"           => "Als je het e-mailadres wijzigt, moet de gebruiker het eigendom van zijn e-mailadres bevestigen wanneer hij de volgende keer inlogt.",
-    "unregistered_user_desc"        => "Deze account is automatisch gemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account te laten aanmaken of hieronder een wachtwoord voor in te stellen.",
-    "send_verification_email"       => "Send Verification Email",
-    "mark_as_verified"              => "Mark as Verified",
-    "password_reset_already"        => "Je heeft al bevestigd dat je eigenaar bent van dit e-mailadres inloggen is nu mogelijk.",
-    "verification_email_resent"     => "A new verification email has been sent and should arrive in a few minutes.",
-    "verified_set_password_desc"    => "Thank you for verifying ownership of your email, please enter a password below to finish your account set up.",
-    "thank_you_for_verifying_email" => "Thank you for verifying ownership of your email address.",
+    "unregistered_user_desc"        => "Dit account is automatisch aangemaakt zonder wachtwoord. Je kunt een bevestigingsmail sturen om een eigen account aan te maken of hieronder een wachtwoord instellen.",
+    "send_verification_email"       => "Verzend verificatie-e-mail",
+    "mark_as_verified"              => "Markeer als geverifieerd",
+    "password_reset_already"        => "Je hebt al bevestigd dat je eigenaar bent van dit e-mailadres. Inloggen is nu mogelijk.",
+    "verification_email_resent"     => "Er is een nieuwe verificatie-e-mail verzonden en zou binnen enkele minuten moeten aankomen.",
+    "verified_set_password_desc"    => "Bedankt voor het verifiëren van het eigendom van je e-mailadres. Voer hieronder een wachtwoord in om je accountinstellingen te voltooien.",
+    "thank_you_for_verifying_email" => "Bedankt voor het verifiëren van het eigendom van je e-mailadres.",
     "organisation_domain_desc"      => "Voer elk domein in dat eigendom is van de organisatie. Gebruikers die zich registreren met een e-mailadres dat tot een van die domeinen behoort, worden automatisch aan de organisatie toegevoegd. We raden aan om te verifiëren dat de gebruiker echt deel uitmaakt van de organisatie als hij niet heeft bevestigd dat hij eigenaar is van zijn e-mailadres.",
-    "resend_verification_email"     => "Resend Verification Email",
+    "resend_verification_email"     => "Verzend verificatie-e-mail opnieuw",
     "updating_email_address"        => "Om de aanpassing van je e-mailadres te voltooien, klik je op de link die is verzonden naar :email om het eigendom van het nieuwe e-mailadres te bevestigen.",
-    "email_verification"            => "Email Verification",
-    "email_verification_already_in_use" => "The email address is already in use by another account.",
-    "verification_link_expired"     => "The verification link may have expired. If your link isn't working for any reason, please request a new one.",
-    "user_invited_to_organisation"  => "The user has been invited to the organisation by email, they must click the link and set up a password to complete their account setup.",
-    "invite_user"                   => "Invite User",
-    "organisation_invite_user"      => "Invite user to organisation",
-    "user_already_in_organisation"  => "The user is already part of an organisation.",
-    "invitations"                   => "Invitation|Invitations",
-    "invite_exists"                 => "The user has already been invited.",
-    "success_join"                  => "You are now a member of the organisation :name.",
-    "error_join"                    => "The invitation code could not be found, or has expired.",
-    "verify_to_view_tickets"        => "Please verify all additional email addresses or remove unverified email addresses under your account profile.",
+    "email_verification"            => "E-mailverificatie",
+    "email_verification_already_in_use" => "Het e-mailadres wordt al gebruikt door een ander account.",
+    "verification_link_expired"     => "De verificatielink is mogelijk verlopen. Als je link om welke reden dan ook niet werkt, vraag dan een nieuwe aan.",
+    "user_invited_to_organisation"  => "De gebruiker is per e-mail uitgenodigd voor de organisatie. Ze moeten op de link klikken en een wachtwoord instellen om hun accountinstellingen te voltooien.",
+    "invite_user"                   => "Gebruiker uitnodigen",
+    "organisation_invite_user"      => "Gebruiker uitnodigen voor organisatie",
+    "user_already_in_organisation"  => "De gebruiker maakt al deel uit van een organisatie.",
+    "invitations"                   => "Uitnodiging|Uitnodigingen",
+    "invite_exists"                 => "De gebruiker is al uitgenodigd.",
+    "success_join"                  => "Je bent nu lid van de organisatie :name.",
+    "error_join"                    => "De uitnodigingscode kon niet worden gevonden of is verlopen.",
+    "verify_to_view_tickets"        => "Verifieer alle extra e-mailadressen of verwijder niet-geverifieerde e-mailadressen in je accountprofiel.",
 
     /*
      * 5.2.3

@@ -2,8 +2,8 @@
 
 return array(
 
-    "popular_items"             => "Populaire artikelen",
-    "latest_items"              => "Laatste artikelen",
+    "popular_items"             => "Meest bekeken artikelen",
+    "latest_items"              => "Nieuwste artikelen",
 
     "selfservice"               => "Self-Service",
     "article"                   => "Artikel|Artikelen",
@@ -21,7 +21,7 @@ return array(
     "published"                 => "Publicatiedatum:",
     "spam"                      => "Spam",
 
-    "hierarchical"              => "Hierarchisch",
+    "hierarchical"              => "Hiërarchisch",
     "list"                      => "Lijst",
 
     "show_on_dashboard"         => "Arikelen tonen op Frontend",
@@ -122,16 +122,16 @@ return array(
     "change_slug"               => "Slug wijzigen",
     "published_date"            => "Publicatie Datum",
     "published_date_desc"       => "De datum en tijd waarop het artikel is gepubliceerd zoals weergegeven aan gebruikers op de frontend.",
-    "content_options"           => "Content Opties",
+    "content_options"           => "Content opties",
     "content_desc"              => "De inhoud die met dit type wordt geserveerd. <br /><strong>Artikelen</strong> - Een verzameling berichten die kunnen worden gegroepeerd (zoals een kennisbank) of afzonderlijk kunnen worden bewaard (zoals aankondigingen).<br /><strong>Externe Link</strong> - Geef een link naar een externe site, zoals een documentatieportaal.",
-    "external_link"             => "Externe Link",
+    "external_link"             => "Externe link",
     "type_view_desc"            => "Indien de content uit meerdere categorieën bestaat en informatief is, zoals een kennisbank, raden we aan om de hiërarchische indeling te gebruiken. Wanneer de content op tijd gebaseerd is, zoals aankondigingen of een blog, dan raden we een lijstoverzicht aan.",
     "pinned"                    => "Vastgezet",
     "pinned_desc"               => "Zet het record vast zodat het bovenaan op de voorkant wordt weergegeven. Alleen van toepassing op typen lijstweergaven.",
-    "article_ordering"          => "Artikel Ordering",
+    "article_ordering"          => "Artikel sortering",
     "article_ordering_desc"     => "Het ordenen van artikelen bij het bekijken van het type op de frontend.",
-    "most_popular"              => "Meest Populair",
-    "most_recent"               => "Meest Recent",
+    "most_popular"              => "Meest gelezen",
+    "most_recent"               => "Nieuwste",
     "type_order"                => "Je kunt de volgorde wijzigen waarin de zelfbedieningstypen aan gebruikers worden weergegeven door de rijen te slepen en neer te zetten.",
     "type_enabled_desc"         => "Als het type uitgeschakeld wordt zal deze niet meer getoond worden",
     "internal"                  => "Intern",
