@@ -252,6 +252,6 @@ return array(
      * 5.2.0
      */
     "background_job_deleted"            => "Verwijderde achtergrondtaak :rel.",
-    "background_job_retried"            => "Opnieuw geprobeerde achtergrondtaak :rel."
+    "background_job_retried"            => "Opnieuw geprobeerde achtergrondtaak :rel.",
 
 );

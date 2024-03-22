@@ -151,7 +151,6 @@ return array(
     "popup_blocked"         => "Je browser blokkeert pop-upvensters. Schakel pop-ups en omleidingen op deze website in om de voorbeeldfunctie te gebruiken.",
     "error_editing_message" => "Er is een fout opgetreden bij het bewerken van dit bericht.",
 
-
     /*
      * 4.1.1
      */

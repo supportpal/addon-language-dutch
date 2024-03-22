@@ -360,7 +360,7 @@ return array(
      */
     "enable_ssl_warning"        => "Als deze instelling word inschakelt wanneer de pagina niet correct laadt, wordt SupportPal mogelijk onbereikbaar! ",
     "verify_frontend_loads"     => "Controleer of de frontend hieronder correct wordt geladen.",
-    "twig_operator_signature"   => "Het {{ operator.signature|raw }} samenvoegveld wordt tijdens runtime verwerkt, waardoor het voorbeeld mogelijk onjuist is.",
+    "twig_operator_reply_template"   => "Het {{ operator.signature|raw }} samenvoegveld wordt tijdens runtime verwerkt, waardoor het voorbeeld mogelijk onjuist is.",
 
     /*
      * 2.4.1

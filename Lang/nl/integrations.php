@@ -19,6 +19,7 @@ return array(
 
     "microsoft_documentation"          => "Lees onze documentatie voor het instellen van <a href=':link'>Microsoft</a>.",
     "microsoft_redirect_url"           => "De volgende URL(s) <strong>moeten</strong> worden ingevoerd voor de toepassing 'Omleidings-URI's':",
+
     "pusher_hosting"                   => "Hosting",
     "pusher_cloud"                     => "Cloud (pusher.com)",
     "pusher_self_hosted"               => "Zelf gehost",
