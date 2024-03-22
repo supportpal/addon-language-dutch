@@ -56,7 +56,6 @@ return array(
 
     // Report
     "report"            => "Rapporten bekijken",
-    "reportdashboard"   => "Dashboard bekijken",
 
     // General
     "tag"               => "Tags beheren",
@@ -77,7 +76,6 @@ return array(
     // User
     "usercustomfield"   => "Eigen velden van gebruikers beheren",
     "organisationcustomfield" => "Eigen velden van organisaties beheren",
-    "operatorsignature" => "Handtekeningen van operators beheren",
 
     /*
      * 2.1.1
@@ -122,7 +120,21 @@ return array(
     /*
      * 4.0.0
      */
-    "addon"             => "View and Manage Add-ons",
-    "system_health"     => "View System Health",
+    "addon"             => "Bekijk en beheer Add-ons",
+    "system_health"     => "Bekijk systeemgezondheid",
 
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Antwoordsjablonen voor operator beheren",
+
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "Bekijk privé berichten",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Beheer rapporten",
 );

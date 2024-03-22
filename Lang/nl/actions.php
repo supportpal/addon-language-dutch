@@ -14,34 +14,30 @@ return array(
     "email_user"                => "E-mail sturen aan gebruiker",
     "email_user_group"          => "E-mail sturen aan gebruikersgroep",
     "unassign_operator"         => "Operator verwijderen van ticket",
-    "update_department"         => "Afdeling wijzigingen",
-    "update_priority"           => "Prioriteit aanpassen",
-    "update_status"             => "Status aanpassen",
+    "update_department"         => "Afdeling wijzigen",
+    "update_priority"           => "Prioriteit wijzigen",
+    "update_status"             => "Status wijzigen",
 
     /*
      * 2.0.3
      */
-    "update_custom_field"       => "Eigen veld van ticket bijwerken",
+    "update_custom_field"       => "Eigen veld van ticket wijzigen",
 
     /*
      * 2.2.0
      */
-    "increase_due_time"         => "Deadline verhogen",
     "close_and_lock_ticket"     => "Sluit en lock ticket",
-    "pause_due_time"            => "Deadline pauzeren",
-    "reduce_due_time"           => "Deadline verlangen",
-    "set_due_time"              => "Deadline instellen",
     "unlock_ticket"             => "Ticket unlocken",
-    "update_sla_plan"           => "SLA bijwerken",
-    "update_subject"            => "Onderwerp bijwerken",
+    "update_sla_plan"           => "SLA wijzigen",
+    "update_subject"            => "Onderwerp wijzigen",
     "add_user_to_group"         => "Gebruiker toevoegen aan gebruikersgroep",
-    "remove_user_from_group"    => "Gebruiker verwijderen gebruikersgroep",
+    "remove_user_from_group"    => "Gebruiker verwijderen uit gebruikersgroep",
     "authenticated_operator"    => "Ingelogde operator",
     "all_assigned_operators"    => "Alle toegewezen operators",
     "all_tags"                  => "Alle tags",
     "subject_placeholder"       => "{{ ticket.subject }} is een placeholder voor het onderwerp van het bestaande ticket wanneer je er aan wilt toevoegen",
-    "hours_to_be_added"         => "uren om aan de deadline toe te voegen.",
-    "hours_to_be_removed"       => "uren om van de deadline af te halen.",
+    "hours_to_be_added"         => "uren toe te voegen aan deadline.",
+    "hours_to_be_removed"       => "uren te verminderen van deadline.",
     "hours_to_be_set"           => "uren om toe te voegen aan de huidige tijd en de nieuwe deadline van het ticket in te stellen.",
     "only_with_due_time"        => "Kan alleen gebruikt worden bij tickets met een deadline.",
     "set_due_time_desc"         => "Verwijder de deadline door het veld leeg te maken. Met een nagatief getal kan een datum in het verleden worden aangegeven.",
@@ -70,12 +66,21 @@ return array(
     /*
      * 2.5.0
      */
-    "move_to_trash"             => "Ticket verplaatsen naar prullenbak",
+    "move_to_trash"             => "Zet ticket in prullenbak",
     "block_user"                => "Gebruiker blokkeren",
 
     /*
-     * 2.6.0
+     * 5.0.0
      */
-    "clear_due_time"            => "Deadline wissen",
+    "increase_resolve_due_time" => "Afwikkelingstijd verlengen",
+    "increase_reply_due_time"   => "Antwoordtermijn verlengen",
+    "reduce_resolve_due_time"   => "Verkort afwikkelingstijd",
+    "reduce_reply_due_time"     => "Antwoordtermijn verkorten",
+    "set_resolve_due_time"      => "Oplostijd instellen",
+    "set_reply_due_time"        => "Antwoordtermijn instellen",
+    "clear_resolve_due_time"    => "Leeg oplostijd",
+    "clear_reply_due_time"      => "Leeg antwoordtermijn",
+    "pause_due_times"           => "Pauzeer antwoordtermijn",
+    "unpause_due_times"         => "Maak verlooptijden actief",
 
 );

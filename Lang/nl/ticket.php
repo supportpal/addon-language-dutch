@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Recente tickets",
     "last_message_text"         => "Inhoud laatste bericht",
 
-    "set_due_time"              => "Deadline instellen",
-
     "settings"                  => "Ticketinstellingen",
 
     "priority"                  => "Prioriteit|Prioriteiten",
@@ -88,15 +86,15 @@ return array(
     "department_encryption"     => "Sommige e-mailproviders hebben SSL- of TLS-codering nodig om verbinding te maken. Als je het niet zeker weet, laat deze instelling dan op geen staan .",
     "department_delete_mail"    => "Wanneer IMAP gebruikt wordt is het mogelijk te kiezen om de e-mail niet uit de mailbox te verwijderen wanneer ze zijn geimporteerd als tickets.",
     "protocol"                  => "Protocol",
-    "server"                    => "Mail Server",
+    "server"                    => "Mailserver",
     "port"                      => "Poort",
     "encryption"                => "Versleuteling",
     "delete_downloaded"         => "Verwijder gedownloade e-mail",
     "consume_all"               => "Consumeer alle e-mail",
-    "email_download"            => "E-mail Download",
-    "email_piping"              => "E-mail Piping",
+    "email_download"            => "E-mail download",
+    "email_piping"              => "E-mail piping",
     "email_piping_desc"         => "Stel een e-mailforwarder in zoals hieronder, het PHP-uitvoerbare pad kan per server anders zijn. ",
-    "remote_email_piping"       => "Remote E-mail Piping",
+    "remote_email_piping"       => "Remote e-mail piping",
 
     // Department email options
     "email_options"             => "E-mail opties",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Toegelaten bijlagen",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> bekijkt dit ticket ook.",
     "draft_saved"               => "Concept opgeslagen op :time",
     "save_draft"                => "Concept bewaren",
     "discard_draft"             => "Concept verwijderen",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA|SLA",
     "specific_schedule"         => "Specifieke planningen",
     "calendar_hours_24"         => "Kalendaruren (24 uurs)",
-    "resolution_time"           => "SLA oplostijden",
-    "resolution_time_desc"      => "Stek de tijden in waarbinnen een ticket moet worden beantwoord en opgelost per prioriteit. De tijd telt alleen binnen de werktijden van de planning, decimale waarden kunnen worden gebruikt.",
-    "reply_within"              => "Antwoorden binnen",
-    "resolve_within"            => "Oplossen binnen",
     "plan"                      => "SLA",
     "sla_condition"             => "SLA voorwaarden",
     "sla_condition_desc"        => "Defininieer de ticketvoorwaarden voor controle of nieuwe tickets vallen onder deze SLA. Wanneer een ticket onder meerdere SLAs valt wordt er gekozen naar prioriteit. Deze prioteit kan worden aagepast in de lijst van SLAs.",
@@ -200,15 +193,15 @@ return array(
     "condition"                 => "Voorwaarde",
     "condition_group"           => "Voorwaardegroep",
     "all_groups"                => "ALLE groepen moeten waar zijn",
-    "any_group"                 => "EEN groep hoeft slechts waar te zijn",
+    "any_group"                 => "ÉÉN groep hoeft slechts waar te zijn",
     "all_conditions"            => "ALLE voorwaarden binnen de groep moeten waar zijn",
-    "any_condition"             => "EEN voorwaarde binnen de groep hoeft slects waar te zijn",
+    "any_condition"             => "ÉÉN voorwaarde binnen de groep hoeft slects waar te zijn",
     "sla_plan_desc"             => "SLAs worden verwerkt in de volgorde waarop ze getoond worden. Verplaats de regels om de prioteit aan te passen.",
 
     // Reply options
     "reply_options"             => "Antwoord opties",
-    "send_email_to_users"       => "Stuur E-mail naar gebruiker(s)",
-    "send_email_to_operators"   => "Stuur E-mail naar operator(s)",
+    "send_email_to_users"       => "Stuur e-mail naar gebruiker(s)",
+    "send_email_to_operators"   => "Stuur e-mail naar operator(s)",
     "back_to_grid"              => "Terug naar ticketoverzicht",
     "take"                      => "Neem",
     "take_ownership"            => "Neem eigendom",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Alleen boven",
     "ticket_notes_messages"     => "Alleen in het bericht",
 
-    "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
     "unregistered_only"         => "Alleen ongeregistreerde gebruikers",
 
     "allow_unauth_users"        => "Sta ongeverifieerde gebruikers toe",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Standaard prioriteit",
     "default_priority_desc"     => "De standaard prioriteit op alle inkomende tickets via dit kanaal.",
-    "verbose_email_log"         => "Uitgebreid e-maillogboek",
 
     "last_reply"                => "Laatste antwoord",
     "opened_at"                 => "Geopend om",
@@ -275,8 +266,7 @@ return array(
     "change_priority"           => "Prioriteit wijzigen",
     "add_tag"                   => "Tag toevoegen",
 
-    "unlock"                    => "Unlocken",
-    "merge"                     => "Samenvoegen",
+    "unlock"                    => "Ontgrendelen",
     "merged"                    => "Samengevoegd",
     "unmerge"                   => "Samenvoeging opheffen",
     "close_and_lock"            => "Sluiten en locken",
@@ -397,11 +387,10 @@ return array(
     "email_template_desc"       => "Je kunt een e-mailtemplate selecteren welke gebruikt zal worden ipv de standaard om verzonden te worden naar de gebruiker of operators voor elke van de onderstaande acties. Deze template zal alleen voor deze afdeling standaard worden.",
     "create_new_user"           => "Maak nieuwe gebruiker",
     "user_reply_internal_ticket" => "Geen operator. Alleen operators kunnen een intern ticket beantwoorden.",
-    "enter_email_address"       => "Vul een e-mailadress in...",
+    "enter_email_address"       => "Vul een e-mailadres in...",
     "email_user_frontend"       => "E-mail gebruikers bij tickets die worden geopend op de frontend",
     "email_user_frontend_desc"  => "Selecteer of gebruikers een e-mail moeten krijgen wanneer ze op de frontend een ticket aanmaken.",
     "department_template_disabled" => "De afdelingstemplate in kwestie is uitgeschakeld, deze e-mail kan niet worden verstuurd.",
-    "verbose_email_log_desc"    => "Indien e-mailcollectie wordt gelogd is het aanbevolen dit alleen te gebruiken indien support dit nodig heeft voor debugging. Vijf dagen aan logs worden bewaard, oudere logs worden automatisch verwijderd.",
 
     /*
      * 2.2.0
@@ -412,7 +401,7 @@ return array(
     "response_desc"             => "Het Standaardantwoord kan in verschillende talen worden geschreven. Het passende antwoord zal automatisch de door de gebruiker ingestelde taal gebruiken.",
     "no_slaplans"               => "Geen SLA gevonden. Klik <a href=':route'>hier</a> om er een aan te maken.",
     "filter_performance"        => "Prestatieoverwegingen en -aanbevelingen",
-    "filter_performance_desc"   => "<li>Filters die meerdere tickets bestrijken zullen langzamer zijn. Probeer zoveel mogelijk opgeloste tickets uit te sluiten.</li><li>Filters met een 'is not'-voorwaarde zijn langzamer dan met een  'is'-voorwaarde.</li><li>Filters die checken voor NULL waardes (zoals ticket tag is None) zijn langzamer.</li><li>Beperk gebruik van meerdere voorwaardes die strings/woorden checken omdat dit meer complexiteit brengt.</li><li>Filters met 'begint met' of 'bevat' voorwaardes zijn langzamer dan 'is gelijk' of 'eindigt op'.</li><li>Opgelost tickets worden niet meegeteld in de sidebar.</li>",
+    "filter_performance_desc"   => "<li>Filters die meerdere tickets bestrijken zullen langzamer zijn. Probeer zoveel mogelijk opgeloste tickets uit te sluiten.</li><li>Filters met een 'is niet'-voorwaarde zijn langzamer dan met een  'is'-voorwaarde.</li><li>Filters die checken voor NULL waardes (zoals ticket tag is None) zijn langzamer.</li><li>Beperk gebruik van meerdere voorwaardes die strings/woorden checken omdat dit meer complexiteit brengt.</li><li>Filters met 'begint met' of 'bevat' voorwaardes zijn langzamer dan 'is gelijk' of 'eindigt op'.</li><li>Opgelost tickets worden niet meegeteld in de sidebar.</li>",
     "run_macro"                 => "Macro uitvoeren",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
 
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Toggle om de afdeling alleen te tonen aan ingelogde gebruikers en alleen e-mails te accepteren van gebruikers die actief zijn geregistreerd bij de helpdesk. Indien ingeschakeld, wordt een teruggestuurde e-mail verzonden naar niet-geregistreerde gebruikers die deze afdeling e-mailen. Om de e-mail te wijzigen of uit te schakelen, zie de sjabloonoptie 'Alleen geregistreerde gebruikers' hieronder.",
     "form_fields_desc"          => "Als je aanvullende informatie wilt verzamelen wanneer de gebruiker feedback geeft, kun je eigen velden instellen om hier op het formulier weer te geven. Het veldtype wordt vergrendeld zodra het formulier is ingevuld door een gebruiker.",
-    "feedback_ratings"          => "Klanttevredenheidsscore (dit heeft invloed op de klanttevredenheidsscore) ",
     "email_and_other_accounts"  => "E-mail en andere ticket kanalen",
     "delete_message"            => "Bericht verwijderen",
     "linked_tickets"            => "Gelinkte tickets",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Selecteer een afdelings-e-mailadres...",
     "record_public_desc"        => "Schakel in om dit :record alleen toegankelijk te maken voor jezelf.",
     "record_group_desc"         => "Als het :record alleen zichtbaar moet zijn voor bepaalde gebruikersgroepen. Laat leeg om zichtbaar te maken voor alle operators.",
-    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
 
     /*
      * 2.4.0
@@ -475,7 +462,7 @@ return array(
     "webhook_ticket_required"   => "Er moet een ticket zijn om deze functionaliteit te laten werken.",
     "not_permitted"             => "Sorry, het is niet toegestaan om de gevraagde ticket (s) te bekijken. Als dit ten onrechte is weergegeven, neem dan contact op met de beheerder.",
     "watch"                     => "Monitoren",
-    "unwatch"                   => "Unmonitor",
+    "unwatch"                   => "Niet meer monitoren",
     "watching"                  => "Gemonitord",
     "internal_ticket"           => "Interne ticket|Interne tickets",
 
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Selecteer ticket om mee samen te voegen",
-    "search_number_or_subject"  => "Zoek op ticketnummer of onderwerp",
     "im_not_sure"               => "Ik weet het niet zeker",
     "auto_reply_detected"       => "Automatisch antwoord gedetecteerd - er wordt geen melding naar de gebruiker (s) gestuurd.",
     "cc_desc"                   => "Je kunt andere mensen naar dit ticket sturen door hier e-mailadressen in te voeren.",
@@ -542,7 +528,42 @@ return array(
     /*
      * 4.0.0
      */
-    "on_behalf_of"              => "Created on behalf of",
-    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+    "on_behalf_of"              => "Aangemaakt in naam van",
+    "reply_canned_be_posted"    => "Het is momenteel niet mogelijk om dit ticket te beantwoorden; het kanaal of account is mogelijk uitgeschakeld.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "Ook aan het bekijken ticket:",
+    "mark_as_read"              => "Markeer als gelezen",
+    "mark_as_unread"            => "Markeer als ongelezen",
+    "sla_targets"               => "SLA doel|SLA doelen",
+    "sla_targets_desc"          => "Stelt doeltijden in waarop een ticket moet worden beantwoord en opgelost per prioriteit. De tijd wordt alleen geteld tijdens kantooruren op basis van het (de) gekozen schema('s), decimale waarden kunnen worden gebruikt. Laat de waarde leeg om geen doel in te stellen voor die prioriteit..",
+    "first_reply_time"          => "Tijd tot eerste antwoord",
+    "next_reply_time"           => "Tijd tot tweede antwoord",
+    "resolution_time"           => "Tijd tot oplossen",
+    "reply_due_in"              => "Antwoord tijd :time",
+    "resolve_in"                => "Oplossen :time",
+    "paused_ago"                => "Gepauzeerd :time",
+    "reply_due_time"            => "Antwoorden in",
+    "resolution_due_time"       => "Oplossen in",
+    "set_reply_due_time"        => "Stel de antwoordtijd in",
+    "set_resolution_due_time"   => "Stel de oplostijd in",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "De gebruiker kan geen tickets meer openen en het ticket wordt in de prullenbak gezet.",
 
 );
