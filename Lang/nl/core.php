@@ -173,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cron",
     "schedule_task_3"           => "Maak een cron aan die lijkt op het onderstaande voorbeeld zodat de crons automatisch worden uitgevoerd. ",
     "ticket_channel_desc"       => "Ticketkanalen zijn methoden om tickets te maken. Ze kunnen eenvoudig worden uitgebreid met eigen kanalen, bijvoorbeeld tickets die via Instagram worden geopend.",
-    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
     "user_desc"                 => "Gebruikers die met supportpal communiceren, worden hier weergegeven. Je kunt desgewenst gebruikers toevoegen, bewerken en verwijderen.",
     "organisation_desc"         => "Gebruikers kunnen worden toegewezen aan organisaties waardoor ze toegang hebben tot tickets die zijn geopend door andere gebruikers binnen hun organisatie.",
     "operator_desc"             => "Andere personeelsleden kunnen hier als operator worden toegevoegd, samen met het beheer van de afdelingen waaraan ze zijn toegewezen. ",
@@ -660,5 +659,11 @@ return array(
     "exception"                 => "Uitzondering",
     "data"                      => "Gegevens",
     "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
+    "incoming_duplicate"        => "Incoming (Duplicate)",
 
 );
