@@ -254,4 +254,10 @@ return array(
     "background_job_deleted"            => "Verwijderde achtergrondtaak :rel.",
     "background_job_retried"            => "Opnieuw geprobeerde achtergrondtaak :rel.",
 
+    /*
+     * 5.3.0
+     */
+    "operator_password_set"             => "Set a password for their account.",
+    "password_reset_sent"               => "Reset password link sent to :rel.",
+
 );

@@ -199,4 +199,9 @@ return array(
     "post_install"              => "Om het systeem goed te laten functioneren, moet er een cron worden ingesteld. Lees onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>stappen na installatie</a> voor details over deze en andere aanbevolen acties om de functionaliteit en beveiliging te verbeteren.",
     "help_allowed_methods"      => "De webserver moet alle onderstaande HTTP-methoden toestaan. Raadpleeg onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nieuwe installatie</a> documentatie voor meer informatie.",
 
+    /*
+     * 5.3.0
+     */
+    "check_file_permissions"    => "Checking file permissions...",
+
 );
