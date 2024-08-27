@@ -151,5 +151,11 @@ return array(
     "type_protected_desc"       => "Toggle om alleen te laten zien aan ingelogde gebruikers.",
     "article_feedback"          => "Artikel feedback",
     "frontend_icon_desc"        => "Selecteer een <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> icoon om op de frontend voor dit type weer te geven, je kunt ook zoeken naar een aangepast pictogram dat niet in de lijst staat (beginnend met 'fa-').",
+    "comment_deleted"           => "Comment deleted",
+
+    /*
+     * 5.3.0
+     */
+    "in_reply_to"               => "in reply to",
 
 );

@@ -173,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cron",
     "schedule_task_3"           => "Maak een cron aan die lijkt op het onderstaande voorbeeld zodat de crons automatisch worden uitgevoerd. ",
     "ticket_channel_desc"       => "Ticketkanalen zijn methoden om tickets te maken. Ze kunnen eenvoudig worden uitgebreid met eigen kanalen, bijvoorbeeld tickets die via Instagram worden geopend.",
-    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
     "user_desc"                 => "Gebruikers die met supportpal communiceren, worden hier weergegeven. Je kunt desgewenst gebruikers toevoegen, bewerken en verwijderen.",
     "organisation_desc"         => "Gebruikers kunnen worden toegewezen aan organisaties waardoor ze toegang hebben tot tickets die zijn geopend door andere gebruikers binnen hun organisatie.",
     "operator_desc"             => "Andere personeelsleden kunnen hier als operator worden toegevoegd, samen met het beheer van de afdelingen waaraan ze zijn toegewezen. ",
@@ -332,7 +331,6 @@ return array(
     "reprocess_email_desc"      => "We raden aan om te bekijken wat de e-mail oorspronkelijk heeft geblokkeerd en de nodige wijzigingen aan te brengen voordat je probeert deze opnieuw te verwerken.",
     "email_blocked_desc"        => "De e-mail is meerdere keren niet verzonden, deze moet nu handmatig worden verzonden.",
     "captcha_type"              => "Captcha Type",
-    "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem moet worden gebruikt. We raden aan om over te schakelen naar Google reCAPTCHA, waarvoor aanvullende configuratie vereist is.",
     "default_captcha"           => "Standaard Captcha",
     "recaptcha_site_key"        => "Sitesleutel",
     "recaptcha_secret_key"      => "Geheime Sleutel",
@@ -660,5 +658,28 @@ return array(
     "exception"                 => "Uitzondering",
     "data"                      => "Gegevens",
     "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
+    "incoming_duplicate"        => "Incoming (Duplicate)",
+
+    /*
+     * 5.4.0
+     */
+    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
+    "addon_not_found"           => "Add-on not found.",
+    "deactivating_addon"        => "Deactivating add-on...",
+    "addon_already_activated"   => "Add-on already activated.",
+    "addon_already_deactivated" => "Add-on already deactivated.",
+    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
+    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
+    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
+    "site_key"                  => "Site Key",
+    "secret_key"                => "Secret Key",
+    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
+    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
+    "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem moet worden gebruikt. We raden aan om over te schakelen naar Google reCAPTCHA, waarvoor aanvullende configuratie vereist is.",
 
 );
