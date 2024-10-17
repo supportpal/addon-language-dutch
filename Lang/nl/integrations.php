@@ -45,8 +45,6 @@ return array(
     "twilio_api_details_desc"          => "Zoek naar 'API-sleutels' in de console. Maak een API-sleutel aan en voer de sleutel en het geheim hieronder in.",
     "twilio_api_secret"                => "API-secret",
     "twilio_number_verification"       => "Nummerverificatie",
-    "twilio_number_verification_desc"  => "Optioneel - Voer een verificatieservice-SID in om verificatie van telefoonnummers van gebruikers mogelijk te maken. Dit wordt aanbevolen om te voorkomen dat een gebruiker een willekeurig telefoonnummer invoert - de <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-service van Twilio is tegen betaling.",
-    "twilio_verify_sid"                => "Verificatie-SID",
 
     "twitter_api_key_secret"           => "API-sleutel-secret",
 
@@ -55,5 +53,13 @@ return array(
      */
     "twitter_documentation"            => "Lees onze documentatie voor het instellen van <a href=':link'>Twitter</a>.",
     "twitter_redirect_url"             => "De volgende URL <strong>moet</strong> worden ingevoerd als 'Callback-URL' voor de Twitter-app:",
+
+    /*
+     * 5.4.1
+     */
+    "twilio_verify_sid"                => "Verificatie-SID",
+    "twilio_number_verification_desc"  => "Optioneel - Voer een verificatieservice-SID in om verificatie van telefoonnummers van gebruikers mogelijk te maken. Dit wordt aanbevolen om te voorkomen dat een gebruiker een willekeurig telefoonnummer invoert - de <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-service van Twilio is tegen betaling.",
+    "twilio_verify_countries"          => "Verify Allowed Countries",
+    "twilio_verify_countries_desc"     => "Restrict phone number verification to specific countries, to reduce costs and the risk of abuse. Phone numbers belonging to countries outside of the permitted list can be manually marked as verified by staff.",
 
 );
