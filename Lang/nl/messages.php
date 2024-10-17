@@ -168,4 +168,9 @@ return array(
     "lock_timeout"          => "Time-out vergrendeling",
     "lock_timeout_desc"     => "De server is momenteel bezig met het verwerken van andere verzoeken. Probeer het opnieuw.",
 
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+
 );
