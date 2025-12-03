@@ -369,7 +369,6 @@ return array(
     "multi_ip"                  => "Multi-IP Support",
     "multi_ip_desc"             => "Maakt het mogelijk om SupportPal te vergrendelen op meer dan één intern of extern IP-adres.",
     "purchase"                  => "kopen",
-    "ticket_number_missing"     => "Voor ticketgerelateerde e-mails, zou het {{ ticket.number }} samenvoegveld aanwezig moet zijn in het E-mail onderwerp en moet verpakt zijn in een <em>[#{{ ticket.number }}]</em> of een <em>(#{{ ticket.number }})</em> om antwoorden naar het juiste ticket te leiden. Als je het ticketnummer wilt verwijderen, overweeg dan om <a href='https://docs.supportpal.com/current/Email+Channel#SubAddressConfiguration' target='_blank'>email sub-addressing</a> in te schakelen.",
 
     /*
      * 2.5.0
@@ -662,7 +661,6 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
     "incoming_duplicate"        => "Incoming (Duplicate)",
 
     /*
@@ -682,4 +680,86 @@ return array(
     "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
     "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem moet worden gebruikt. We raden aan om over te schakelen naar Google reCAPTCHA, waarvoor aanvullende configuratie vereist is.",
 
+    /*
+     * 5.5.0
+     */
+    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
+    "selected_country_aria_label" => "Selected country",
+    "no_country_selected"       => "No country selected",
+    "country_list_aria_label"   => "List of countries",
+    "zero_search_results"       => "No results found",
+    "one_search_result"         => "1 result found",
+    "multiple_search_results"   => "\${count} results found", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "Advanced",
+    "table"                     => "Table",
+    "cell"                      => "Cell",
+    "cell_properties"           => "Cell properties",
+    "merge_cells"               => "Merge cells",
+    "split_cell"                => "Split cell",
+    "row"                       => "Row",
+    "inset_row_before"          => "Insert row before",
+    "inset_row_after"           => "Insert row after",
+    "delete_row"                => "Delete row",
+    "row_properties"            => "Row properties",
+    "cut_row"                   => "Cut row",
+    "copy_row"                  => "Copy row",
+    "paste_row_before"          => "Paste row before",
+    "paste_row_after"           => "Paste row after",
+    "column"                    => "Column",
+    "insert_column_before"      => "Insert column before",
+    "insert_column_after"       => "Insert column after",
+    "delete_column"             => "Delete column",
+    "cut_column"                => "Cut column",
+    "copy_column"               => "Copy column",
+    "paste_column_before"       => "Paste column before",
+    "paste_column_after"        => "Paste column after",
+    "table_properties"          => "Table properties",
+    "delete_table"              => "Delete table",
+    "width"                     => "Width",
+    "height"                    => "Height",
+    "cell_spacing"              => "Cell spacing",
+    "cell_padding"              => "Cell padding",
+    "border_width"              => "Border width",
+    "caption"                   => "Caption",
+    "show_caption"              => "Show caption",
+    "alignment"                 => "Alignment",
+    "border_style"              => "Border style",
+    "border_colour"             => "Border colour",
+    "cell_type"                 => "Cell type",
+    "scope"                     => "Scope",
+    "horizontal_align"          => "Horizontal align",
+    "vertical_align"            => "Vertical align",
+    "header_cell"               => "Header cell",
+    "row_group"                 => "Row group",
+    "column_group"              => "Column group",
+    "left"                      => "Left",
+    "center"                    => "Center",
+    "right"                     => "Right",
+    "top"                       => "Top",
+    "middle"                    => "Middle",
+    "bottom"                    => "Bottom",
+    "anchor"                    => "Anchor",
+    "example"                   => "Example",
+
+    /*
+     * 5.6.0
+     */
+    "email_template_enabled_desc" => "Disabling the email template will prevent notifications that use this template from being sent.",
+    "template_disabled"         => "Template Disabled",
+    "reset_email_template"      => "This will update the editor with the default email template content. Any previous changes made will be lost once the email template has been saved.",
+
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "Cursor Position",
+    "set_cursor_position"       => "Set Cursor Position",
+    "private_message_notification" => "New Operator Private Message",
+    "private_message_notification_desc" => "Notifies you when you receive correspondence from another operator via private message.",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "Solid",
+    "dashed"                    => "Dashed",
+    "dotted"                    => "Dotted",
 );
