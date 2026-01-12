@@ -106,7 +106,7 @@ return array(
     /*
      * 4.0.0
      */
-    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
+    "last_message_content_exc_notes"    => "Inhoud van het laatste bericht (Exclusief notities)", 
 
     /*
      * 5.0.0
