@@ -154,8 +154,8 @@ return array(
     /*
      * 4.1.1
      */
-    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
-    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+    "brand_not_enabled"     => "Deze actie kan niet worden verwerkt omdat het bedrijfsmerk niet aan staat.", 
+    "cannot_reply_to_internal" => "Een gebruiker kan niet reageren op een interne ticket.", 
 
     /*
      * 4.3.0
