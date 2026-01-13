@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Samenvatting",
     "associate_tag"             => "Tag toevoegen aan artikel...",
     "associate_category"        => "Categorie toevoegen aan artikel...",
-    "published_desc"            => "Indien het artikel openbaar gemaakt is. Als het niet gepubliceerd is kan het nog steeds worden bekeken via de directe URL mits de categorie openbaar is.",
     "registered_users_desc"     => "Instellen dat artikel alleen door ingelogde gebruikers is te zien.",
 
     "comment_by"                => "Opmerking door",
@@ -157,5 +156,17 @@ return array(
      * 5.3.0
      */
     "in_reply_to"               => "in reply to",
+
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "New Comment Posted",
+    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Indien het artikel openbaar gemaakt is. Als het niet gepubliceerd is kan het nog steeds worden bekeken via de directe URL mits de categorie openbaar is.",
+    "not_published"             => "Not Published",
 
 );

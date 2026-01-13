@@ -26,7 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Sluit en lock ticket",
     "unlock_ticket"             => "Ticket unlocken",
     "update_sla_plan"           => "SLA wijzigen",
     "update_subject"            => "Onderwerp wijzigen",
@@ -82,5 +81,12 @@ return array(
     "clear_reply_due_time"      => "Leeg antwoordtermijn",
     "pause_due_times"           => "Pauzeer antwoordtermijn",
     "unpause_due_times"         => "Maak verlooptijden actief",
+
+    /*
+     * 5.5.0
+     */
+    "close_ticket"              => "Close ticket",
+    "lock_ticket"               => "Lock ticket",
+    "notify_user"               => "Notify user",
 
 );

@@ -429,4 +429,15 @@ return array(
     "week"                      => "Week|Weken",
     "quarter"                   => "Kwartaal|Kwartalen",
 
+    /*
+     * 5.5.0
+     */
+    "mark_as_done"              => "Mark as Done",
+
+    /*
+     * 5.7.0
+     */
+    "bot"                       => "Bot|Bots",
+    "allow_all"                 => "Allow All",
+
 );
