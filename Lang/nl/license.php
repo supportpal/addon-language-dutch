@@ -48,4 +48,9 @@ return array(
      */
     "unlicensed"        => "Niet gelicentieerd",
 
+    /*
+     * 5.5.0
+     */
+    "key_updated"       => "License key updated successfully.",
+
 );
