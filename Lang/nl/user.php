@@ -76,7 +76,6 @@ return array(
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
     "ldap_operator_desc"            => "Zoek naar een bestaande operator, of maak een nieuwe.",
-    "ldap_server"                   => "LDAP Server",
     "ldap_server_desc"              => "De server hostname. Je kunt ook de volledige LDAP URI invulen, zoals ldaps://ldap.server:1234/ welke via SSL verbinding maakt met port 1234.",
     "ldap_username"                 => "LDAP Gebruikersnaam",
     "ldap_username_desc"            => "De gebruikersnaam met welke de operator inlogt op de heldesk).",
@@ -409,4 +408,13 @@ return array(
     "notifications_desc"            => "Select the channels on which you would like to be notified about system events, or disable individual notifications completely.",
     "in_app_notifications"          => "In-App Notifications",
 
+    /*
+     * 6.0.0
+     */
+    "ldap_start_tls_desc"           => "Whether to connect insecurely and upgrade the connection using StartTLS. If you're using the LDAPS protocol, this option should not be used.",
+    "ldap_ca_cert"                  => "CA Certificate",
+    "ldap_ca_cert_desc"             => "Optionally upload the LDAP server's CA certificate file. This is only necessary when using self-signed certificates.",
+    "ldap_server"                   => "LDAP Server",
+    "ldap_server_hostname"          => "Hostname",
+    "ldap_server_name_desc"         => "A friendly name to identify this LDAP server.",
 );

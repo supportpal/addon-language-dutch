@@ -440,4 +440,13 @@ return array(
     "bot"                       => "Bot|Bots",
     "allow_all"                 => "Allow All",
 
+    /*
+     * 6.0.0
+     */
+    "maximise"                  => "Maximise",
+    "minimise"                  => "Minimise",
+    "resize"                    => "Resize",
+    "activity"                  => "Activity",
+    "server"                    => "Server|Servers",
+
 );

@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Keer terug naar :page.",
 
-    "session_expired"       => "Je sessie is verlopen, log opnieuw in.",
     "session_refresh"       => "Je sessie is verlopen. Ververs de pagina en probeer het nog eens.",
 
     "general_error"         => "Er is een fout opgetreden. Probeer het opnieuw.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Niet toegestaan",
 
     "not_logged_exception"  => "<strong>Oeps! Er ging iets fout.</strong><br />. Wanneer het probleem aanhoudt waarschuw een beheerder.",
-
-    "too_many_ticket_reqs"  => "Er zijn teveel ticket requests afkomstig van e-mailadres :email. De limiet is :max in :decay minuten.",
 
     "not_operator"          => "De geselecteerde operator is ongeldig voor deze operatorgroep.",
 
@@ -171,6 +168,11 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Too many attempts, please try again :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Je sessie is verlopen, log opnieuw in.",
 
 );

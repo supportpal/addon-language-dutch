@@ -27,4 +27,10 @@ return array(
     "new_mention"           => "Nieuwe vermelding",
     "new_mention_text"      => ":name vermeldde jou in ticket #<a href=':route'>:number</a>.",
 
+    /*
+     * 6.0.0.
+     */
+    "new_feedback"          => "New Ticket Feedback",
+    "new_feedback_text"     => ":name left feedback on ticket #:item. Rating: :rating",
+
 );

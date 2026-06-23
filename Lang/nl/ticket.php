@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "Dit ticket is al enige tijd opgelost, de periode voor feedback is reeds verlopen.",
     "feedback_questions"        => "Als je even tijd hebt, beantwoord dan de volgende vragen om ons te helpen de ondersteuning die we bieden verder te verbeteren.",
     "feedback_for_ticket"       => "Feedback voor ticket #:number",
-    "feedback_rating_desc"      => "De ondersteuning die op dit ticket wordt ontvangen, is beoordeeld als <strong>:rating</strong> door de klant.",
 
     // Custom fields
     "customfield"               => "Eigen ticket veld|Eigen ticket velden",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Toegelaten bijlagen",
 
     // Drafts
-    "draft_saved"               => "Concept opgeslagen op :time",
     "save_draft"                => "Concept bewaren",
     "discard_draft"             => "Concept verwijderen",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Antwoord opties",
     "send_email_to_users"       => "Stuur e-mail naar gebruiker(s)",
     "send_email_to_operators"   => "Stuur e-mail naar operator(s)",
-    "back_to_grid"              => "Terug naar ticketoverzicht",
     "take"                      => "Neem",
     "take_ownership"            => "Neem eigendom",
     "pause_duetime"             => "Deadline pauzeren",
@@ -305,14 +302,11 @@ return array(
     "default_reply_options_desc" => "Selecteer de standaardantwoordopties die moeten worden ingesteld bij het openen of beantwoorden van een ticket. De optie ': reply_option' wordt aangevinkt op basis van de instelling ': department_option'.",
     "associate_response_tag"    => "Voeg tags toe aan het standaardantwoord...",
     "canned_response_tags_desc" => "Het toevoegen van tags kunnen helpen bij het vinden van een standaardantwoord bij het beantwoorden van een ticket.",
-    "append_ip_address"         => "IP-adres toevoegen",
-    "append_ip_address_desc"    => "Voeg het IP-adres van gebruikers toe aan hun berichten wanneer ze openen en antwoord geven op tickets van de frontend.",
     "unassign_operator"         => "Operator ongedaan maken",
     "remove_tag"                => "Tag verwijderen",
     "message_clipped"           => "[Bericht Geknipt]",
     "view_entire_message"       => "Volledig bericht openen",
     "no_custom_fields"          => "Geen eigen veld(en) gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
-    "follow_up_active"          => "Er is een <a class='view-followup' style='text-decoration: underline;'>follow up</a> actief op deze ticket over <strong>:time</strong>.",
     "disable_user_email_replies" => "Antwoord op e-mail uitschakelen",
 
     /*
@@ -478,7 +472,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Follow-ups",
-    "follow_up_multiple_active" => "Meerdere <a class='view-followup' style='text-decoration: underline;'>follow-ups</a> zijn momenteel actief op dit ticket en de volgende geplande wordt uitgevoerd op <strong>:time</strong>.",
     "follow_up_no_actions"      => "Er zijn geen acties ingesteld voor de follow-up. Bevestig of je wilt doorgaan.",
     "status_after_running"      => "Status na uitvoering",
     "older_messages"            => ":count oudere berichten ",
@@ -492,11 +485,6 @@ return array(
     "im_not_sure"               => "Ik weet het niet zeker",
     "auto_reply_detected"       => "Automatisch antwoord gedetecteerd - er wordt geen melding naar de gebruiker (s) gestuurd.",
     "cc_desc"                   => "Je kunt andere mensen naar dit ticket sturen door hier e-mailadressen in te voeren.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> was een bericht aan het opstellen ",
 
     /*
      * 3.3.0
@@ -530,7 +518,6 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
     "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
@@ -571,9 +558,7 @@ return array(
      */
     "rate_limiting"             => "Rate Limiting",
     "max_requests"              => "Max Requests",
-    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
     "decay_time"                => "Decay Time",
-    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
     "exclude_addresses"         => "Exclude Addresses",
     "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
     "enable_throttling"         => "Enable Throttling",
@@ -613,5 +598,33 @@ return array(
     "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
     "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
     "allowed_files_desc"        => "Een lijst met bestandsextensies, gescheiden door de pipe | karakter, die zijn toegestaan als bijlagen. Bijvoorbeeld: txt | png | jpg. Om alle bijlagen toe te staan, voer in: ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Terug naar ticketoverzicht",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Concept opgeslagen op :time",
+    "drafting_message"          => "<strong>:name</strong> was een bericht aan het opstellen ",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
+    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
 
 );
