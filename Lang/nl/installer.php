@@ -204,4 +204,15 @@ return array(
      */
     "check_file_permissions"    => "Bestandsrechten checken...",
 
+    /*
+     * 6.0.0
+     */
+    "mysql_server_version_desc" => "Database-serverversie :min of hoger is vereist om SupportPal uit te voeren. Gevonden: ':version'.",
+    "help_mysql_version"        => "Neem contact op met uw hostingprovider of serverbeheerder voor hulp bij het installeren van een nieuwe versie van MySQL of een andere ondersteunde database.",
+    "mysql_version"             => "Databaseversie",
+    "mysql_version_not_found"   => "Niet beschikbaar, gevonden databaseversie: :version",
+    "mysql_client_version_desc" => "Databaseclientversie :min of hoger is vereist om SupportPal uit te voeren. Gevonden: ':version'.",
+    "update_failed"             => "Het bijwerken van de applicatie is mislukt.",
+    "attempting_to_restore"     => "Bezig met herstellen vanaf de back-up...",
+
 );

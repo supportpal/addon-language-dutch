@@ -257,25 +257,113 @@ return array(
     /*
      * 5.3.0
      */
-    "operator_password_set"             => "Set a password for their account.",
-    "password_reset_sent"               => "Reset password link sent to :rel.",
+    "operator_password_set"             => "Een wachtwoord voor het account ingesteld.",
+    "password_reset_sent"               => "Link om het wachtwoord te resetten verzonden naar :rel.",
 
     /*
      * 5.4.0
      */
-    "ticket_feedback_rating"            => "Rated ticket #:rel as :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
-    "ticket_feedback_saved"             => "Saved :extra_rel1 on ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
-    "selfservice_feedback_saved"        => "Saved :extra_rel1 on article :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
+    "ticket_feedback_rating"            => "Ticket #:rel beoordeeld als :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
+    "ticket_feedback_saved"             => ":extra_rel1 opgeslagen voor ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
+    "selfservice_feedback_saved"        => ":extra_rel1 opgeslagen voor artikel :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
 
     /*
      * 5.5.0
      */
-    "ticket_pinned_message"             => "Pinned :extra_rel1 on ticket #:rel.", // Pinned message (lowercase general.message) on ticket #123.
-    "ticket_unpinned_message"           => "Unpinned :extra_rel1 on ticket #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
+    "ticket_pinned_message"             => ":extra_rel1 vastgezet in ticket #:rel.", // Pinned message (lowercase general.message) on ticket #123.
+    "ticket_unpinned_message"           => ":extra_rel1 losgemaakt van ticket #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
 
     /*
      * 5.7.0
      */
-    "operator_notifications_updated"    => "Updated :rel's notification preferences.", // Updated Joe Blog's notification preferences.
+    "operator_notifications_updated"    => "De meldingsvoorkeuren van :rel bijgewerkt.",
 
+    /*
+     * 6.0.0
+     */
+    "ticket_merged"                     => ":new_value samengevoegd met ticket #:rel.",
+    "ticket_added_cc"                   => ":new_value toegevoegd aan de CC-adreslijst van ticket #:rel.",
+    "ticket_removed_cc"                 => ":old_value verwijderd uit de CC-adreslijst van ticket #:rel.",
+    "ticket_slaplan_set"                => "Het SLA-plan van ticket #:rel bijgewerkt van Geen naar :new_value.",
+    "ticket_slaplan_removed"            => "Het SLA-plan van ticket #:rel bijgewerkt van :old_value naar Geen.",
+    "sent_feedback_email_to_operators"  => "E-mail met ontvangen feedback verzonden naar operators voor ticket #:rel.",
+    "ticket_added_cc_multiple"          => ":cc_emails toegevoegd aan de CC-adreslijst van ticket #:rel.",
+    "timeline_ticket_added_cc_multiple" => ":user_name heeft CC :cc_emails toegevoegd",
+    "ticket_removed_cc_multiple"        => ":cc_emails verwijderd uit de CC-adreslijst van ticket #:rel.",
+    "timeline_ticket_removed_cc_multiple" => ":user_name heeft CC :cc_emails verwijderd",
+    "ticket_assigned_operators_multiple" => ":operators toegewezen aan ticket #:rel.",
+    "timeline_ticket_assigned_operators_multiple" => ":user_name heeft :operators toegewezen",
+    "ticket_unassigned_operators_multiple" => ":operators verwijderd van ticket #:rel.",
+    "timeline_ticket_unassigned_operators_multiple" => ":user_name heeft de toewijzing van :operators verwijderd",
+    "ticket_watch_operator_multiple"    => ":operators volgen nu ticket #:rel.",
+    "timeline_ticket_watch_operator_multiple" => ":user_name heeft :operators toegevoegd als volgers",
+    "ticket_unwatch_operator_multiple"  => ":operators volgen ticket #:rel niet langer.",
+    "timeline_ticket_unwatch_operator_multiple" => ":user_name heeft :operators gestopt met volgen",
+    "ticket_tag_added_single"           => "Label :formatted_items toegevoegd aan ticket #:rel.",
+    "timeline_ticket_tag_added_single"  => ":user_name heeft label :formatted_items toegevoegd",
+    "ticket_tag_removed_single"         => "Label :formatted_items verwijderd van ticket #:rel.",
+    "timeline_ticket_tag_removed_single" => ":user_name heeft label :formatted_items verwijderd",
+    "ticket_tag_added_multiple"         => "Labels :formatted_items toegevoegd aan ticket #:rel.",
+    "timeline_ticket_tag_added_multiple" => ":user_name heeft labels :formatted_items toegevoegd",
+    "ticket_tag_removed_multiple"       => "Labels :formatted_items verwijderd van ticket #:rel.",
+    "timeline_ticket_tag_removed_multiple" => ":user_name heeft labels :formatted_items verwijderd",
+    "ticket_merged_multiple"            => "Tickets :ticket_numbers samengevoegd met ticket #:rel.",
+    "timeline_ticket_merged_multiple"   => ":user_name heeft :ticket_numbers samengevoegd met dit ticket",
+    "linked_tickets_multiple"           => "Ticket #:rel gekoppeld aan tickets :extra_rel*.",
+    "timeline_linked_tickets_multiple"  => ":user_name heeft gekoppeld aan :extra_rel*",
+    "unlinked_tickets_multiple"         => "Koppeling tussen ticket #:rel en tickets :extra_rel* verwijderd.",
+    "timeline_unlinked_tickets_multiple" => ":user_name heeft de koppeling met tickets :extra_rel* verwijderd",
+    "ticket_macro_automatic_multiple"   => "De macro's :macros zijn automatisch uitgevoerd op ticket #:rel.",
+    "timeline_ticket_macro_automatic_multiple" => ":user_name heeft macro's :macros uitgevoerd",
+    "ticket_customfield_updated_individual" => "Aangepast veld ':field_name' bijgewerkt voor ticket #:rel.",
+    "timeline_ticket_customfield_updated_individual" => ":user_name heeft aangepast veld ':field_name' bijgewerkt",
+    "timeline_ticket_opened_on_behalf"  => ":user_name heeft een ticket geopend namens :new_value",
+    "timeline_ticket_message_deleted"   => ":user_name heeft bericht (:message_id) van :message_user_name verwijderd",
+    "timeline_ticket_user_updated"      => ":user_name heeft de gebruiker gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_subject_updated"   => ":user_name heeft het onderwerp gewijzigd van <del>:old_value</del> naar :new_value",
+    "timeline_ticket_department_updated" => ":user_name heeft de afdeling gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_status_updated"    => ":user_name heeft de status gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_priority_updated"  => ":user_name heeft de prioriteit gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_slaplan_updated"   => ":user_name heeft het SLA-plan gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_slaplan_set"       => ":user_name heeft het SLA-plan ingesteld op :new_value.",
+    "timeline_ticket_slaplan_removed"   => ":user_name heeft het SLA-plan verwijderd (was :old_value).",
+    "timeline_ticket_converted_user"    => ":user_name heeft een intern ticket omgezet naar een gebruikersticket",
+    "timeline_ticket_converted_internal" => ":user_name heeft een gebruikersticket omgezet naar een intern ticket",
+    "timeline_ticket_assigned_self"     => ":user_name heeft zichzelf toegewezen",
+    "timeline_ticket_locked"            => ":user_name heeft het ticket vergrendeld",
+    "timeline_ticket_unlocked"          => ":user_name heeft het ticket ontgrendeld",
+    "timeline_ticket_unmerged"          => ":user_name heeft de samenvoeging ongedaan gemaakt",
+    "timeline_ticket_user_blocked"      => ":user_name heeft e-mailadres :new_value geblokkeerd",
+    "timeline_ticket_closed"            => ":user_name heeft het ticket gesloten",
+    "timeline_ticket_inactive_closed"   => ":user_name heeft het ticket gesloten wegens inactiviteit",
+    "timeline_ticket_awaiting_response" => ":user_name heeft een e-mail 'Wachten op reactie' naar de gebruiker verzonden",
+    "timeline_ticket_split_from"        => ":user_name heeft berichten gesplitst naar nieuw ticket #:new_value",
+    "timeline_ticket_split_to"          => ":user_name heeft berichten gesplitst vanuit ticket #:old_value",
+    "timeline_ticket_attachment_deleted" => ":user_name heeft bijlage (:attachment_id) :attachment_name verwijderd uit <a href='#:message_id'>bericht</a>",
+    "timeline_ticket_unassigned_self"   => ":user_name heeft de eigen toewijzing verwijderd",
+    "timeline_ticket_macro_applied"     => ":user_name heeft macro ':new_value' uitgevoerd",
+    "timeline_ticket_macro_automatic"   => ":user_name heeft macro ':new_value' uitgevoerd",
+    "timeline_ticket_message_edited"    => ":user_name heeft een :extra_rel1 bewerkt",
+    "timeline_ticket_brand_updated"     => ":user_name heeft het merk gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_watching"          => ":user_name volgt dit ticket nu",
+    "timeline_ticket_unwatching"        => ":user_name volgt dit ticket niet langer",
+    "timeline_ticket_department_email_updated" => ":user_name heeft het afdelings-e-mailadres gewijzigd van :old_value naar :new_value",
+    "timeline_ticket_trashed"           => ":user_name heeft het ticket naar de prullenbak verplaatst",
+    "timeline_ticket_restored"          => ":user_name heeft het ticket uit de prullenbak hersteld",
+    "timeline_ticket_followup_set"      => ":user_name heeft een opvolgactie aangemaakt",
+    "timeline_ticket_followup_updated"  => ":user_name heeft een opvolgactie bijgewerkt",
+    "timeline_ticket_followup_deleted"  => ":user_name heeft een opvolgactie verwijderd",
+    "timeline_ticket_reply_duetime_updated" => ":user_name heeft de reactietermijn gewijzigd naar :new_value",
+    "timeline_ticket_resolve_duetime_updated" => ":user_name heeft de oplostermijn gewijzigd naar :new_value",
+    "timeline_ticket_reply_duetime_unset" => ":user_name heeft de reactietermijn gewist",
+    "timeline_ticket_resolve_duetime_unset" => ":user_name heeft de oplostermijn gewist",
+    "timeline_ticket_duetime_paused"    => ":user_name heeft de termijnen gepauzeerd",
+    "timeline_ticket_duetime_unpaused"  => ":user_name heeft de termijnen hervat",
+    "timeline_ticket_feedback_rating"   => ":user_name heeft de feedbackbeoordeling ingesteld op :extra_rel1",
+    "timeline_ticket_feedback_saved"    => ":user_name heeft :extra_rel1 opgeslagen",
+    "timeline_ticket_pinned_message"    => ":user_name heeft een <a href='#:message_id'>bericht</a> vastgezet",
+    "timeline_ticket_unpinned_message"  => ":user_name heeft een <a href='#:message_id'>bericht</a> losgemaakt",
+    "ticket_attachment_rejected"        => "Bijlage(n) :files geblokkeerd voor ticket #:rel vanwege een ongeldig bestandstype.",
+    "timeline_ticket_attachment_rejected" => "Bijlage(n) :files geblokkeerd vanwege een ongeldig bestandstype",
+    
 );

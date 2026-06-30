@@ -658,108 +658,151 @@ return array(
     "data"                      => "Gegevens",
     "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
 
-    /*
-     * 5.3.0
-     */
-    "incoming_duplicate"        => "Incoming (Duplicate)",
+        /*
+         * 5.3.0
+         */
+    "incoming_duplicate"        => "Inkomend (Duplicaat)",
 
     /*
-     * 5.4.0
-     */
-    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
-    "addon_not_found"           => "Add-on not found.",
-    "deactivating_addon"        => "Deactivating add-on...",
-    "addon_already_activated"   => "Add-on already activated.",
-    "addon_already_deactivated" => "Add-on already deactivated.",
-    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
-    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
-    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
-    "site_key"                  => "Site Key",
-    "secret_key"                => "Secret Key",
-    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
-    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
-    "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem moet worden gebruikt. We raden aan om over te schakelen naar Google reCAPTCHA, waarvoor aanvullende configuratie vereist is.",
+         * 5.4.0
+         */
+    "email_method_overridden"   => "De e-mailmethode is overschreven in de <a href=':link' target='_blank'>standaard merkinstellingen</a>.",
+    "addon_not_found"           => "Add-on niet gevonden.",
+    "deactivating_addon"        => "Add-on wordt gedeactiveerd...",
+    "addon_already_activated"   => "Add-on is al geactiveerd.",
+    "addon_already_deactivated" => "Add-on is al gedeactiveerd.",
+    "addon_cannot_deactivate"   => "De add-on kan niet worden gedeactiveerd.",
+    "addon_activation_failed"   => "Het activeren van de add-on is mislukt. Raadpleeg het applicatielogboek voor meer informatie.",
+    "addon_deactivation_failed" => "Het deactiveren van de add-on is mislukt. Raadpleeg het applicatielogboek voor meer informatie.",
+    "site_key"                  => "Site-sleutel",
+    "secret_key"                => "Geheime sleutel",
+    "turnstile_desc"            => "Registreer een nieuwe Turnstile-widget bij <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Kopieer hierboven de site- en geheime sleutel.",
+    "hcaptcha_desc"             => "Registreer u bij <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Kopieer hierboven de site- en geheime sleutel.",
+    "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem wordt gebruikt.",
 
     /*
-     * 5.5.0
-     */
-    "ticket_channel_2"          => "We bieden een aantal standaardkanalen. Mogelijk wilt is het handig om de Facebook- en Twitter-kanalen activeren en configureren om via sociale media gegenereerde tickets te verzamelen.",
-    "selected_country_aria_label" => "Selected country",
-    "no_country_selected"       => "No country selected",
-    "country_list_aria_label"   => "List of countries",
-    "zero_search_results"       => "No results found",
-    "one_search_result"         => "1 result found",
-    "multiple_search_results"   => "\${count} results found", // ${count} is a JS variable and should not be changed.
-    "advanced"                  => "Advanced",
-    "table"                     => "Table",
-    "cell"                      => "Cell",
-    "cell_properties"           => "Cell properties",
-    "merge_cells"               => "Merge cells",
-    "split_cell"                => "Split cell",
-    "row"                       => "Row",
-    "inset_row_before"          => "Insert row before",
-    "inset_row_after"           => "Insert row after",
-    "delete_row"                => "Delete row",
-    "row_properties"            => "Row properties",
-    "cut_row"                   => "Cut row",
-    "copy_row"                  => "Copy row",
-    "paste_row_before"          => "Paste row before",
-    "paste_row_after"           => "Paste row after",
-    "column"                    => "Column",
-    "insert_column_before"      => "Insert column before",
-    "insert_column_after"       => "Insert column after",
-    "delete_column"             => "Delete column",
-    "cut_column"                => "Cut column",
-    "copy_column"               => "Copy column",
-    "paste_column_before"       => "Paste column before",
-    "paste_column_after"        => "Paste column after",
-    "table_properties"          => "Table properties",
-    "delete_table"              => "Delete table",
-    "width"                     => "Width",
-    "height"                    => "Height",
-    "cell_spacing"              => "Cell spacing",
-    "cell_padding"              => "Cell padding",
-    "border_width"              => "Border width",
-    "caption"                   => "Caption",
-    "show_caption"              => "Show caption",
-    "alignment"                 => "Alignment",
-    "border_style"              => "Border style",
-    "border_colour"             => "Border colour",
-    "cell_type"                 => "Cell type",
-    "scope"                     => "Scope",
-    "horizontal_align"          => "Horizontal align",
-    "vertical_align"            => "Vertical align",
-    "header_cell"               => "Header cell",
-    "row_group"                 => "Row group",
-    "column_group"              => "Column group",
-    "left"                      => "Left",
-    "center"                    => "Center",
-    "right"                     => "Right",
-    "top"                       => "Top",
-    "middle"                    => "Middle",
-    "bottom"                    => "Bottom",
-    "anchor"                    => "Anchor",
-    "example"                   => "Example",
+         * 5.5.0
+         */
+    "ticket_channel_2"          => "We bieden een aantal standaard ticketkanalen. Extra kanalen en andere add-ons kunnen worden geïnstalleerd vanuit de Add-ons Marketplace.",
+    "selected_country_aria_label" => "Geselecteerd land",
+    "no_country_selected"       => "Geen land geselecteerd",
+    "country_list_aria_label"   => "Lijst met landen",
+    "zero_search_results"       => "Geen resultaten gevonden",
+    "one_search_result"         => "1 resultaat gevonden",
+    "multiple_search_results"   => "${count} resultaten gevonden", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "Geavanceerd",
+    "table"                     => "Tabel",
+    "cell"                      => "Cel",
+    "cell_properties"           => "Celeigenschappen",
+    "merge_cells"               => "Cellen samenvoegen",
+    "split_cell"                => "Cel splitsen",
+    "row"                       => "Rij",
+    "inset_row_before"          => "Rij erboven invoegen",
+    "inset_row_after"           => "Rij eronder invoegen",
+    "delete_row"                => "Rij verwijderen",
+    "row_properties"            => "Rijeigenschappen",
+    "cut_row"                   => "Rij knippen",
+    "copy_row"                  => "Rij kopiëren",
+    "paste_row_before"          => "Rij erboven plakken",
+    "paste_row_after"           => "Rij eronder plakken",
+    "column"                    => "Kolom",
+    "insert_column_before"      => "Kolom links invoegen",
+    "insert_column_after"       => "Kolom rechts invoegen",
+    "delete_column"             => "Kolom verwijderen",
+    "cut_column"                => "Kolom knippen",
+    "copy_column"               => "Kolom kopiëren",
+    "paste_column_before"       => "Kolom links plakken",
+    "paste_column_after"        => "Kolom rechts plakken",
+    "table_properties"          => "Tabeleigenschappen",
+    "delete_table"              => "Tabel verwijderen",
+    "width"                     => "Breedte",
+    "height"                    => "Hoogte",
+    "cell_spacing"              => "Celafstand",
+    "cell_padding"              => "Celopvulling",
+    "border_width"              => "Randbreedte",
+    "caption"                   => "Bijschrift",
+    "show_caption"              => "Bijschrift weergeven",
+    "alignment"                 => "Uitlijning",
+    "border_style"              => "Randstijl",
+    "border_colour"             => "Randkleur",
+    "cell_type"                 => "Celtype",
+    "scope"                     => "Bereik",
+    "horizontal_align"          => "Horizontale uitlijning",
+    "vertical_align"            => "Verticale uitlijning",
+    "header_cell"               => "Kopcel",
+    "row_group"                 => "Rijgroep",
+    "column_group"              => "Kolomgroep",
+    "left"                      => "Links",
+    "center"                    => "Midden",
+    "right"                     => "Rechts",
+    "top"                       => "Boven",
+    "middle"                    => "Midden",
+    "bottom"                    => "Onder",
+    "anchor"                    => "Anker",
+    "example"                   => "Voorbeeld",
 
     /*
-     * 5.6.0
-     */
-    "email_template_enabled_desc" => "Disabling the email template will prevent notifications that use this template from being sent.",
-    "template_disabled"         => "Template Disabled",
-    "reset_email_template"      => "This will update the editor with the default email template content. Any previous changes made will be lost once the email template has been saved.",
+         * 5.6.0
+         */
+    "email_template_enabled_desc" => "Door de e-mailsjabloon uit te schakelen worden meldingen die dit sjabloon gebruiken niet meer verzonden.",
+    "template_disabled"         => "Sjabloon uitgeschakeld",
+    "reset_email_template"      => "Hiermee wordt de editor bijgewerkt met de standaardinhoud van het e-mailsjabloon. Eerder aangebrachte wijzigingen gaan verloren zodra het e-mailsjabloon wordt opgeslagen.",
 
     /*
-     * 5.7.0
-     */
-    "cursor_position"           => "Cursor Position",
-    "set_cursor_position"       => "Set Cursor Position",
-    "private_message_notification" => "New Operator Private Message",
-    "private_message_notification_desc" => "Notifies you when you receive correspondence from another operator via private message.",
+         * 5.7.0
+         */
+    "cursor_position"           => "Cursorpositie",
+    "set_cursor_position"       => "Cursorpositie instellen",
+    "private_message_notification" => "Nieuwe privébericht van operator",
+    "private_message_notification_desc" => "Waarschuwt u wanneer u een privébericht ontvangt van een andere operator.",
 
     /*
-     * 5.7.3
+         * 5.7.3
+         */
+    "solid"                     => "Doorgetrokken",
+    "dashed"                    => "Gestreept",
+    "dotted"                    => "Gestippeld",
+
+    /*
+     * 6.0.0
+    */
+    "bot"                       => "Bot",
+    "start_tls"                 => "Start TLS",
+    "shortcut_disabled"         => "Uitgeschakeld",
+    "shortcut_edit"             => "Sneltoets bewerken",
+    "shortcut_reset"            => "Terugzetten naar standaard",
+    "shortcut_press_key"        => "Druk een toetsencombinatie in...",
+    "shortcut_already_in_use"   => "Deze sneltoets wordt al gebruikt door ':name'.",
+    "shortcut_invalid"          => "Ongeldige sneltoets. Probeer het opnieuw.",
+    "shortcut_editor"           => "Teksteditor",
+    "shortcut_editor_bold"      => "Vet",
+    "shortcut_editor_italic"    => "Cursief",
+    "shortcut_editor_underline" => "Onderstrepen",
+    "shortcut_editor_link"      => "Link invoegen",
+    "shortcut_editor_strikethrough" => "Doorhalen",
+    "shortcut_editor_codesample" => "Codevoorbeeld invoegen",
+    "shortcut_editor_blockquote" => "Citaatblok invoegen",
+    "shortcut_editor_numlist"   => "Genummerde lijst invoegen",
+    "shortcut_editor_bullist"   => "Opsomming invoegen",
+    "shortcut_editor_outdent"   => "Inspringing verkleinen",
+    "shortcut_editor_indent"    => "Inspringing vergroten",
+    "shortcut_editor_removeformat" => "Opmaak verwijderen",
+    "shortcut_editor_canned_responses" => "Standaardantwoord invoegen",
+    "shortcut_editor_self_service" => "Selfservice-link invoegen",
+    "shortcut_editor_submit"    => "Formulier verzenden",
+    "shortcut_editor_superscript" => "Superscript",
+    "shortcut_editor_subscript" => "Subscript",
+    "shortcut_editor_paragraph" => "Alinea",
+    "shortcut_editor_heading1"  => "Kop 1",
+    "shortcut_editor_heading2"  => "Kop 2",
+    "shortcut_editor_heading3"  => "Kop 3",
+    "shortcut_editor_heading4"  => "Kop 4",
+    "shortcut_editor_heading5"  => "Kop 5",
+    "shortcut_editor_heading6"  => "Kop 6",
+
+    /*
+     * 6.0.2
      */
-    "solid"                     => "Solid",
-    "dashed"                    => "Dashed",
-    "dotted"                    => "Dotted",
+    "simpleauth_key_desc"       => "De sleutel voor onze Single Sign-On-optie, minimaal 32 tekens.",
+
 );

@@ -171,6 +171,11 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Te veel pogingen. Probeer het opnieuw :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Uw sessie is verlopen. Probeer het opnieuw.",
 
 );

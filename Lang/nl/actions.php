@@ -85,8 +85,8 @@ return array(
     /*
      * 5.5.0
      */
-    "close_ticket"              => "Close ticket",
-    "lock_ticket"               => "Lock ticket",
-    "notify_user"               => "Notify user",
+    "close_ticket"              => "Ticket sluiten",
+    "lock_ticket"               => "Vergrendel ticket",
+    "notify_user"               => "Notificeer gebruiker",
 
 );
