@@ -570,7 +570,6 @@ return array(
     "file_not_found"            => "Bestand ':path' niet gevonden.",
     "file_not_executable"       => "Bestand ':path' is niet uitvoerbaar.",
     "dependency_resolution"     => "Kan gezondheidscontrole niet uitvoeren.",
-    "debug_mode_warning"        => "Debugmodus mag alleen tijdelijk worden gebruikt.",
     "custom_colour"             => "Aangepaste kleur",
     "remove_colour"             => "Kleur verwijderen",
     "background_colour"         => "Achtergrondkleur",

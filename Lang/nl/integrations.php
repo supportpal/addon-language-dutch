@@ -76,4 +76,5 @@ return array(
      */
     "microsoft_tenant_id"               => "Tenant-ID",
     "microsoft_tenant_id_desc"          => "Als u één enkele tenant moet gebruiken voor ondersteunde accounttypen, voer dan de tenant-ID in. Laat dit veld anders leeg. De tenant-ID is te vinden in het overzicht van Microsoft Entra Identity.",
+
 );

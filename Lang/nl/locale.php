@@ -372,6 +372,7 @@ return array(
         "Asia/Magadan"                      => "(GMT+11:00) Magadan",
         "Pacific/Auckland"                  => "(GMT+12:00) Auckland",
         "Pacific/Fiji"                      => "(GMT+12:00) Fiji",
+        "Asia/Kamchatka"                    => "(GMT+12:00) Kamchatka",
         "Pacific/Tongatapu"                 => "(GMT+13:00) Nuku'alofa",
         "Pacific/Apia"                      => "(GMT+13:00) Samoa",
     ),
