@@ -84,7 +84,6 @@ return array(
     "ticket_unlocked"                   => "Unlocked ticket #:rel.",
     "ticket_locked_reply"               => "Antwoord kon niet worden toegevoegd aan locked ticket #:rel.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value samengevoegd met ticket #:rel.",
     "ticket_unmerged"                   => "Ticket :rel is gesplist.",
 
     "ticket_user_blocked"               => "Geblokkeerde e-mail :new_value (van gebruiker op ticket #:rel).",
@@ -114,8 +113,6 @@ return array(
     "ticket_brand_disabled_reply"       => "Antwoord kon niet worden toegevoegd omdat het ticket hoort bij een afgesloten merk #:rel.",
     "personal_signatures_updated"       => "Persoonlijke handtekening bijgewerkt.",
     "check_email_failed"                => "Error: Kon geen e-mail downloaden van account :old_value: ':rel'.",
-    "ticket_added_cc"                   => "E-mail(s) :new_value toegevoegd aan  CC adreslijst voor ticket #:rel.",
-    "ticket_removed_cc"                 => "E-mail(s) :old_value verwijderd uit  CC adresljist voor ticket #:rel.",
     "invalid_department_brand"          => "Kon voor ticket #:rel de afdeling niet instellen op ':new_value' omdat deze afdeling niet bij dit merk hoort.",
 
     /*
@@ -276,7 +273,7 @@ return array(
     /*
      * 5.7.0
      */
-    "operator_notifications_updated"    => "De meldingsvoorkeuren van :rel bijgewerkt.",
+    "operator_notifications_updated"    => "De meldingsvoorkeuren van :rel bijgewerkt.", // Updated Joe Blog's notification preferences.
 
     /*
      * 6.0.0
@@ -284,8 +281,8 @@ return array(
     "ticket_merged"                     => ":new_value samengevoegd met ticket #:rel.",
     "ticket_added_cc"                   => ":new_value toegevoegd aan de CC-adreslijst van ticket #:rel.",
     "ticket_removed_cc"                 => ":old_value verwijderd uit de CC-adreslijst van ticket #:rel.",
-    "ticket_slaplan_set"                => "Het SLA-plan van ticket #:rel bijgewerkt van Geen naar :new_value.",
-    "ticket_slaplan_removed"            => "Het SLA-plan van ticket #:rel bijgewerkt van :old_value naar Geen.",
+    "ticket_slaplan_set"  => "Het SLA-plan van ticket #:rel bijgewerkt van Geen naar :new_value.",
+    "ticket_slaplan_removed"  => "Het SLA-plan van ticket #:rel bijgewerkt van :old_value naar Geen.",
     "sent_feedback_email_to_operators"  => "E-mail met ontvangen feedback verzonden naar operators voor ticket #:rel.",
     "ticket_added_cc_multiple"          => ":cc_emails toegevoegd aan de CC-adreslijst van ticket #:rel.",
     "timeline_ticket_added_cc_multiple" => ":user_name heeft CC :cc_emails toegevoegd",
@@ -298,7 +295,7 @@ return array(
     "ticket_watch_operator_multiple"    => ":operators volgen nu ticket #:rel.",
     "timeline_ticket_watch_operator_multiple" => ":user_name heeft :operators toegevoegd als volgers",
     "ticket_unwatch_operator_multiple"  => ":operators volgen ticket #:rel niet langer.",
-    "timeline_ticket_unwatch_operator_multiple" => ":user_name heeft :operators gestopt met volgen",
+    "timeline_ticket_unwatch_operator_multiple"  => ":user_name heeft :operators gestopt met volgen",
     "ticket_tag_added_single"           => "Label :formatted_items toegevoegd aan ticket #:rel.",
     "timeline_ticket_tag_added_single"  => ":user_name heeft label :formatted_items toegevoegd",
     "ticket_tag_removed_single"         => "Label :formatted_items verwijderd van ticket #:rel.",
@@ -359,11 +356,11 @@ return array(
     "timeline_ticket_resolve_duetime_unset" => ":user_name heeft de oplostermijn gewist",
     "timeline_ticket_duetime_paused"    => ":user_name heeft de termijnen gepauzeerd",
     "timeline_ticket_duetime_unpaused"  => ":user_name heeft de termijnen hervat",
-    "timeline_ticket_feedback_rating"   => ":user_name heeft de feedbackbeoordeling ingesteld op :extra_rel1",
-    "timeline_ticket_feedback_saved"    => ":user_name heeft :extra_rel1 opgeslagen",
+    "timeline_ticket_feedback_rating"   => ":user_name heeft de feedbackbeoordeling ingesteld op :extra_rel1", // Rated as 'general.good / general.bad / general.neutral'
+    "timeline_ticket_feedback_saved"    => ":user_name heeft :extra_rel1 opgeslagen", // Saved (lowercase ticket.feedback)
     "timeline_ticket_pinned_message"    => ":user_name heeft een <a href='#:message_id'>bericht</a> vastgezet",
     "timeline_ticket_unpinned_message"  => ":user_name heeft een <a href='#:message_id'>bericht</a> losgemaakt",
     "ticket_attachment_rejected"        => "Bijlage(n) :files geblokkeerd voor ticket #:rel vanwege een ongeldig bestandstype.",
     "timeline_ticket_attachment_rejected" => "Bijlage(n) :files geblokkeerd vanwege een ongeldig bestandstype",
-    
+
 );

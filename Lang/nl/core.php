@@ -97,7 +97,6 @@ return array(
     "incoming_spam"             => "Inkomend (Geweigerd - Spam)",
     "incoming_throttled"        => "Inkomend (Rejected - Gelimiteerd)",
     "email_subject"             => "E-mail Onderwerp",
-    "twig_html_warning"         => "Twig is niet toegestaan binnen HTML-tags / attributen en wordt automatisch verwijderd bij het opslaan. ",
 
     // Modules
     "modules"                   => "Module|Modules",
@@ -210,7 +209,6 @@ return array(
     "time_format"               => "Tijdnotatie",
     "time_format_desc"          => "Het tijdformaat dat door het systeem wordt gebruikt.",
     "simpleauth_key"            => "SimpleAuth Key",
-    "simpleauth_key_desc"       => "Deze key is voor onze single sign on optie, minimaal 16 tekens.",
     "simpleauth_operators"      => "Toestaan voor operators",
     "base_url"                  => "Systeem URL",
     "base_url_desc"             => "Vul het volledige webadres van de installatie in, deze wordt gebruikt om de URLs te maken die de gebruikers toegemailed krijgen.",
@@ -236,7 +234,6 @@ return array(
     "email_no_body"             => "Kon de inhoud van de e-mail niet vinden.",
     "email_runtime_error"       => "Een runtime error is opgetreden tijdens het maken van het ticket/antwoord.",
     "email_reply_disabled"      => "Gebruiker e-mailantwoorden zijn uitgeschakeld voor deze afdeling.",
-    "email_throttled"           => "Er zijn teveel inkomende e-mails van deze gebruiker. Het limiet is :max_requests e-mails per :decay_time minuut.",
 
     /*
      * 2.1.0
@@ -373,7 +370,6 @@ return array(
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Schakel de foutopsporingsmodus in om fouten weer te geven, gebruik deze alleen voor foutopsporing of als hierom wordt gevraagd door de ondersteuning. Fouten en andere nuttige logboekberichten worden anders opgeslagen in de toepassingslogboeken, die kunnen worden gedownload door naar Tools -> Logs -> Logboekbeheer te gaan.",
     "record_trash_relations"    => "De records worden naar de prullenbak verplaatst en vervolgens definitief verwijderd na :number dagen samen met de volgende gerelateerde gegevens: :relations. Dit heeft gevolgen voor rapporten.",
     "uninstall_plugable_warning" => "Het verwijderen van :plugable verwijdert alle bijbehorende bestanden en gegevens. We raden aan om in plaats daarvan de  :plugable uit te schakelen.",
     "web_settings_desc"         => "De webkanaalinstellingen zijn van toepassing op de frontend. Standaard zijn tickets toegankelijk voor iedereen die een unieke ticket-URL kent. Mogelijk wil je dit uitschakelen en gebruikers verplichten in te loggen voordat ze toegang krijgen tot ticketinformatie.",
@@ -799,6 +795,38 @@ return array(
     "shortcut_editor_heading4"  => "Kop 4",
     "shortcut_editor_heading5"  => "Kop 5",
     "shortcut_editor_heading6"  => "Kop 6",
+    // Activity Log Groups
+    "ticket_events"             => "Ticket Events",
+    "user_events"               => "User Events",
+    "organisation_events"       => "Organisation Events",
+    "email_events"              => "Email Events",
+    "system_events"             => "System Events",
+    "selfservice_events"        => "Self-Service Events",
+    "ip_events"                 => "IP Events",
+    "login_events"              => "Login Events",
+    "export_events"             => "Export Events",
+    "addon_events"              => "Addon Events",
+    "private_conversation_events" => "Private Conversation Events",
+    "import_events"             => "Import Events",
+    "background_job_events"     => "Background Job Events",
+    "user_profile"              => "Profile updates",
+    "user_organisation"         => "Organisation updates",
+    "user_groups"               => "Group membership changes",
+    "user_password"             => "Password changes",
+    "user_merge"                => "Merge events",
+    "email_mass"                => "Mass email events",
+    "email_sent"                => "Sent emails",
+    "misc_events"               => "Miscellaneous events",
+    "system_tasks"              => "Scheduled task events",
+    "system_jobs"               => "Background jobs events",
+    "system_items"              => "Created, updated & deleted records",
+    "selfservice_articles"      => "Article events",
+    "selfservice_comments"      => "Comment events",
+    "selfservice_feedback"      => "Feedback events",
+    "email_throttled"           => "Too many incoming emails from user. The limit is :max_requests tokens every :decay_time minutes.",
+    "debug_mode_desc"           => "Enable enhanced debug logging. When enabled, additional diagnostic information is written to the log files, which can be downloaded via Utilities -> Logs -> Log File Manager.",
+    "debug_mode_warning"        => "Debug mode should only be enabled temporarily to avoid generating large log files.",
+    "debug_mode_error"          => "App debug should not be enabled in production and will display errors to users, set APP_DEBUG to false. Use the debug mode option in the general settings instead.",
 
     /*
      * 6.0.2

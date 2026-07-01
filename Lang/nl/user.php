@@ -76,7 +76,6 @@ return array(
 
     "ldap_account"                  => "LDAP Account|LDAP Accounts",
     "ldap_operator_desc"            => "Zoek naar een bestaande operator, of maak een nieuwe.",
-    "ldap_server"                   => "LDAP Server",
     "ldap_server_desc"              => "De server hostname. Je kunt ook de volledige LDAP URI invulen, zoals ldaps://ldap.server:1234/ welke via SSL verbinding maakt met port 1234.",
     "ldap_username"                 => "LDAP Gebruikersnaam",
     "ldap_username_desc"            => "De gebruikersnaam met welke de operator inlogt op de heldesk).",
