@@ -658,14 +658,14 @@ return array(
     "data"                      => "Gegevens",
     "failed_background_jobs"    => "Een of meer <a target='_blank' href=':link'>achtergrondtaken</a> zijn mislukt en vereisen handmatige aandacht.",
 
-        /*
-         * 5.3.0
-         */
+    /*
+     * 5.3.0
+     */
     "incoming_duplicate"        => "Inkomend (Duplicaat)",
 
     /*
-         * 5.4.0
-         */
+     * 5.4.0
+     */
     "email_method_overridden"   => "De e-mailmethode is overschreven in de <a href=':link' target='_blank'>standaard merkinstellingen</a>.",
     "addon_not_found"           => "Add-on niet gevonden.",
     "deactivating_addon"        => "Add-on wordt gedeactiveerd...",
@@ -681,15 +681,15 @@ return array(
     "captcha_type_desc"         => "Selecteer de Captcha die in het hele systeem wordt gebruikt.",
 
     /*
-         * 5.5.0
-         */
+     * 5.5.0
+     */
     "ticket_channel_2"          => "We bieden een aantal standaard ticketkanalen. Extra kanalen en andere add-ons kunnen worden geïnstalleerd vanuit de Add-ons Marketplace.",
     "selected_country_aria_label" => "Geselecteerd land",
     "no_country_selected"       => "Geen land geselecteerd",
     "country_list_aria_label"   => "Lijst met landen",
     "zero_search_results"       => "Geen resultaten gevonden",
     "one_search_result"         => "1 resultaat gevonden",
-    "multiple_search_results"   => "${count} resultaten gevonden", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "\${count} resultaten gevonden", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Geavanceerd",
     "table"                     => "Tabel",
     "cell"                      => "Cel",
@@ -742,30 +742,30 @@ return array(
     "example"                   => "Voorbeeld",
 
     /*
-         * 5.6.0
-         */
+     * 5.6.0
+     */
     "email_template_enabled_desc" => "Door de e-mailsjabloon uit te schakelen worden meldingen die dit sjabloon gebruiken niet meer verzonden.",
     "template_disabled"         => "Sjabloon uitgeschakeld",
     "reset_email_template"      => "Hiermee wordt de editor bijgewerkt met de standaardinhoud van het e-mailsjabloon. Eerder aangebrachte wijzigingen gaan verloren zodra het e-mailsjabloon wordt opgeslagen.",
 
     /*
-         * 5.7.0
-         */
+     * 5.7.0
+     */
     "cursor_position"           => "Cursorpositie",
     "set_cursor_position"       => "Cursorpositie instellen",
     "private_message_notification" => "Nieuwe privébericht van operator",
     "private_message_notification_desc" => "Waarschuwt u wanneer u een privébericht ontvangt van een andere operator.",
 
     /*
-         * 5.7.3
-         */
+     * 5.7.3
+     */
     "solid"                     => "Doorgetrokken",
     "dashed"                    => "Gestreept",
     "dotted"                    => "Gestippeld",
 
     /*
      * 6.0.0
-    */
+     */
     "bot"                       => "Bot",
     "start_tls"                 => "Start TLS",
     "shortcut_disabled"         => "Uitgeschakeld",
