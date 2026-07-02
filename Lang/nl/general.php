@@ -443,10 +443,10 @@ return array(
     /*
      * 6.0.0
      */
-    "maximise"                  => "Maximise",
-    "minimise"                  => "Minimise",
-    "resize"                    => "Resize",
-    "activity"                  => "Activity",
+    "maximise"                  => "Maximaliseren",
+    "minimise"                  => "Minimaliseren",
+    "resize"                    => "Formaat wijzigen",
+    "activity"                  => "Activiteit",
     "server"                    => "Server|Servers",
 
 );
