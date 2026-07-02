@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "Dit ticket is al enige tijd opgelost, de periode voor feedback is reeds verlopen.",
     "feedback_questions"        => "Als je even tijd hebt, beantwoord dan de volgende vragen om ons te helpen de ondersteuning die we bieden verder te verbeteren.",
     "feedback_for_ticket"       => "Feedback voor ticket #:number",
-    "feedback_rating_desc"      => "De ondersteuning die op dit ticket wordt ontvangen, is beoordeeld als <strong>:rating</strong> door de klant.",
 
     // Custom fields
     "customfield"               => "Eigen ticket veld|Eigen ticket velden",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Toegelaten bijlagen",
 
     // Drafts
-    "draft_saved"               => "Concept opgeslagen op :time",
     "save_draft"                => "Concept bewaren",
     "discard_draft"             => "Concept verwijderen",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Antwoord opties",
     "send_email_to_users"       => "Stuur e-mail naar gebruiker(s)",
     "send_email_to_operators"   => "Stuur e-mail naar operator(s)",
-    "back_to_grid"              => "Terug naar ticketoverzicht",
     "take"                      => "Neem",
     "take_ownership"            => "Neem eigendom",
     "pause_duetime"             => "Deadline pauzeren",
@@ -305,14 +302,11 @@ return array(
     "default_reply_options_desc" => "Selecteer de standaardantwoordopties die moeten worden ingesteld bij het openen of beantwoorden van een ticket. De optie ': reply_option' wordt aangevinkt op basis van de instelling ': department_option'.",
     "associate_response_tag"    => "Voeg tags toe aan het standaardantwoord...",
     "canned_response_tags_desc" => "Het toevoegen van tags kunnen helpen bij het vinden van een standaardantwoord bij het beantwoorden van een ticket.",
-    "append_ip_address"         => "IP-adres toevoegen",
-    "append_ip_address_desc"    => "Voeg het IP-adres van gebruikers toe aan hun berichten wanneer ze openen en antwoord geven op tickets van de frontend.",
     "unassign_operator"         => "Operator ongedaan maken",
     "remove_tag"                => "Tag verwijderen",
     "message_clipped"           => "[Bericht Geknipt]",
     "view_entire_message"       => "Volledig bericht openen",
     "no_custom_fields"          => "Geen eigen veld(en) gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
-    "follow_up_active"          => "Er is een <a class='view-followup' style='text-decoration: underline;'>follow up</a> actief op deze ticket over <strong>:time</strong>.",
     "disable_user_email_replies" => "Antwoord op e-mail uitschakelen",
 
     /*
@@ -478,7 +472,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Follow-ups",
-    "follow_up_multiple_active" => "Meerdere <a class='view-followup' style='text-decoration: underline;'>follow-ups</a> zijn momenteel actief op dit ticket en de volgende geplande wordt uitgevoerd op <strong>:time</strong>.",
     "follow_up_no_actions"      => "Er zijn geen acties ingesteld voor de follow-up. Bevestig of je wilt doorgaan.",
     "status_after_running"      => "Status na uitvoering",
     "older_messages"            => ":count oudere berichten ",
@@ -492,11 +485,6 @@ return array(
     "im_not_sure"               => "Ik weet het niet zeker",
     "auto_reply_detected"       => "Automatisch antwoord gedetecteerd - er wordt geen melding naar de gebruiker (s) gestuurd.",
     "cc_desc"                   => "Je kunt andere mensen naar dit ticket sturen door hier e-mailadressen in te voeren.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> was een bericht aan het opstellen ",
 
     /*
      * 3.3.0
@@ -530,7 +518,6 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Kan alfanumerieke tekens en speciale tekens bevatten <code> -_. +! *, </code> <br /> De volgende variabelen kunnen ook worden gebruikt: %S voor een volgnummer | %N voor een willekeurig getal | %L voor een willekeurige letter <br /> Gebruik {nummer} om <strong> alleen </strong> te herhalen na %N of %L, bijv. %N{4} staat gelijk aan 4 willekeurige getallen, %L{3} staat gelijk aan 3 willekeurige letters <br /> Het volgende <a href = 'http: //php.net/manual/en/function.date.php' target = '_ blank'> PHP-datum </a> Parameters voorafgegaan door %Y, y, m, d, j, g, G, h, H, i, s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
     "captcha_desc"              => "Wanneer de Captcha zich laat zien bij nieuwe gebruikers die een nieuwe ticket openen",
@@ -562,56 +549,82 @@ return array(
     /*
      * 5.3.0
      */
-    "reject_duplicate_emails"   => "Reject Duplicate Emails",
-    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
-    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
+    "reject_duplicate_emails"   => "Dubbele e-mails weigeren",
+    "reject_duplicate_emails_desc" => "Voorkom dat e-mails meer dan één keer worden geïmporteerd. Duplicaten worden gedetecteerd op basis van de Message-ID-header.",
+    "duplicate_email_detected"  => "Dubbele e-mail die al eerder is geïmporteerd.",
 
     /*
      * 5.5.0
      */
-    "rate_limiting"             => "Rate Limiting",
-    "max_requests"              => "Max Requests",
-    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
-    "decay_time"                => "Decay Time",
-    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
-    "exclude_addresses"         => "Exclude Addresses",
-    "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
-    "enable_throttling"         => "Enable Throttling",
-    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
-    "close_without_notify"      => "Close (without notification)",
-    "lock"                      => "Lock",
-    "pin"                       => "Pin",
-    "unpin"                     => "Unpin",
+    "rate_limiting"             => "Snelheidslimiet",
+    "max_requests"              => "Maximum aantal aanvragen",
+    "decay_time"                => "Hersteltijd",
+    "exclude_addresses"         => "Adressen uitsluiten",
+    "exclude_addresses_desc"    => "Een lijst met e-mailadressen die zijn uitgesloten van de snelheidslimiet.",
+    "enable_throttling"         => "Snelheidslimiet inschakelen",
+    "enable_throttling_api_desc" => "Beperk het aantal tickets en berichten dat gebruikers binnen een bepaalde periode kunnen plaatsen. Zodra de limiet is bereikt, worden verdere aanvragen tijdelijk beperkt. De limieten kunnen worden aangepast onder de instellingen van het webkanaal.",
+    "close_without_notify"      => "Sluiten (zonder melding)",
+    "lock"                      => "Vergrendelen",
+    "pin"                       => "Vastzetten",
+    "unpin"                     => "Losmaken",
 
     /*
      * 5.6.0
      */
-    "copy_to_new_filter"        => "Copy to New Filter",
-    "alias_support"             => "Alias Support",
-    "alias_support_desc"        => "Alias support analyses the recipient addresses of incoming emails to determine which department the email should be opened in. Disabling alias support will open all emails in the department they were fetched in irrespective of the recipient addresses.",
+    "copy_to_new_filter"        => "Kopiëren naar nieuw filter",
+    "alias_support"             => "Ondersteuning voor aliassen",
+    "alias_support_desc"        => "Aliasondersteuning analyseert de geadresseerden van inkomende e-mails om te bepalen in welke afdeling de e-mail moet worden geopend. Wanneer aliasondersteuning is uitgeschakeld, worden alle e-mails geopend in de afdeling waarin ze zijn opgehaald, ongeacht het geadresseerde e-mailadres.",
 
     /*
      * 5.7.0
      */
-    "run_as_operator"           => "Run As",
-    "run_as_operator_desc"      => "Execute the following actions as the selected operator: \":actions\"",
-    "use_ticket_print_view"     => "Please use the dedicated print view to print this ticket. You can access it by clicking the 'Print' option in the ticket view.",
-    "save_feedback"             => "Save Feedback",
-    "ticket_opened_notification" => "New Ticket Opened",
-    "ticket_opened_notification_desc" => "Notifies you when a new user or internal ticket has been opened.",
-    "user_reply_notification"   => "User Ticket Reply Posted",
-    "user_reply_notification_desc" => "Notifies you when a user replies to an existing ticket.",
-    "operator_reply_notification" => "Operator Ticket Reply Posted",
-    "operator_reply_notification_desc" => "Notifies you when another operator replies to a ticket.",
-    "operator_note_notification" => "Operator Ticket Note Posted",
-    "operator_note_notification_desc" => "Notifies you when another operator posts a note on a ticket.",
-    "assigned_notification"     => "Assigned to Ticket",
-    "assigned_notification_desc" => "Notifies you when you are assigned to a ticket.",
-    "department_changed_notification" => "Department Changed",
-    "department_changed_notification_desc" => "Notifies you when a ticket changes department.",
-    "mention_notification"       => "Mentioned",
-    "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
-    "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
-    "allowed_files_desc"        => "Een lijst met bestandsextensies, gescheiden door de pipe | karakter, die zijn toegestaan als bijlagen. Bijvoorbeeld: txt | png | jpg. Om alle bijlagen toe te staan, voer in: ?.*",
+    "run_as_operator"           => "Uitvoeren als",
+    "run_as_operator_desc"      => "Voer de volgende acties uit als de geselecteerde operator: \":actions\"",
+    "use_ticket_print_view"     => "Gebruik de speciale afdrukweergave om dit ticket af te drukken. U kunt deze openen via de optie 'Afdrukken' in de ticketweergave.",
+    "save_feedback"             => "Feedback opslaan",
+    "ticket_opened_notification" => "Nieuw ticket geopend",
+    "ticket_opened_notification_desc" => "Waarschuwt u wanneer een nieuw gebruikers- of intern ticket wordt geopend.",
+    "user_reply_notification"   => "Gebruiker heeft op ticket gereageerd",
+    "user_reply_notification_desc" => "Waarschuwt u wanneer een gebruiker reageert op een bestaand ticket.",
+    "operator_reply_notification" => "Operator heeft op ticket gereageerd",
+    "operator_reply_notification_desc" => "Waarschuwt u wanneer een andere operator op een ticket reageert.",
+    "operator_note_notification" => "Operator heeft een notitie geplaatst",
+    "operator_note_notification_desc" => "Waarschuwt u wanneer een andere operator een notitie aan een ticket toevoegt.",
+    "assigned_notification"     => "Toegewezen aan ticket",
+    "assigned_notification_desc" => "Waarschuwt u wanneer een ticket aan u wordt toegewezen.",
+    "department_changed_notification" => "Afdeling gewijzigd",
+    "department_changed_notification_desc" => "Waarschuwt u wanneer een ticket van afdeling verandert.",
+    "mention_notification"       => "Vermelding",
+    "mention_notification_desc" => "Waarschuwt u wanneer u in een ticket wordt vermeld.",
+    "mark_resolved_and_post_reply" => "Markeren als opgelost en reactie plaatsen",
+    "allowed_files_desc"        => "Schakel dit in om alle bestandstypen toe te staan, of schakel het uit en geef een lijst met toegestane bestandsextensies op. Scheid de extensies met het |-teken, bijvoorbeeld: txt|png|jpg.",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Terug naar overzicht",
+    "stay_on_ticket"            => "Op ticket blijven",
+    "draft_saved"               => "Opgeslagen :time",
+    "drafting_message"          => ":name is een bericht aan het opstellen :time",
+    "feedback_notification"     => "Feedback ontvangen",
+    "feedback_notification_desc" => "Waarschuwt u wanneer feedback op een ticket wordt geplaatst.",
+    "notify_feedback"           => "Feedbackmeldingen",
+    "notify_feedback_desc"      => "Geef aan voor welke feedbackreacties uit dit formulier operators meldingen moeten ontvangen.",
+    "notify_all_feedback"       => "Melden bij alle feedback",
+    "notify_neutral_bad_feedback" => "Alleen melden bij neutrale en slechte feedback",
+    "notify_bad_feedback"       => "Alleen melden bij slechte feedback",
+    "timeline"                  => "Tijdlijn",
+    "filter_timeline"           => "Tijdlijn filteren",
+    "timeline_replies"          => "Reacties",
+    "timeline_forwards"         => "Doorgestuurde berichten",
+    "timeline_customfields"     => "Wijzigingen in aangepaste velden",
+    "timeline_sla"              => "SLA- en termijnwijzigingen",
+    "timeline_messages"         => "Bericht- en notitiewijzigingen",
+    "timeline_userinfo"         => "Gebruikersinformatie en wijzigingen",
+    "timeline_assignment"       => "Toewijzingswijzigingen",
+    "timeline_state"            => "Statuswijzigingen",
+    "timeline_merging"          => "Samenvoegen, koppelen en splitsen",
+    "max_requests_desc"         => "Stel het maximale aantal beschikbare tokens in voordat een gebruiker wordt beperkt door de snelheidslimiet. Hierbij kost het aanmaken van een nieuw ticket 3 tokens en een reactie op een bestaand ticket 1 token. Na afloop van de hersteltijd worden alle beschikbare tokens opnieuw aangevuld.",
+    "decay_time_desc"           => "Het aantal minuten waarna de beschikbare tokens opnieuw worden ingesteld.",
 
 );

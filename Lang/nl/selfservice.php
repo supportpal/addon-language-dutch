@@ -147,26 +147,33 @@ return array(
     /*
      * 3.0.0
      */
-    "type_protected_desc"       => "Toggle om alleen te laten zien aan ingelogde gebruikers.",
-    "article_feedback"          => "Artikel feedback",
-    "frontend_icon_desc"        => "Selecteer een <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> icoon om op de frontend voor dit type weer te geven, je kunt ook zoeken naar een aangepast pictogram dat niet in de lijst staat (beginnend met 'fa-').",
-    "comment_deleted"           => "Comment deleted",
+    "type_protected_desc"       => "Schakel dit in om inhoud van dit type alleen aan ingelogde gebruikers te tonen.",
+    "article_feedback"          => "Artikelfeedback",
+    "comment_deleted"           => "Reactie verwijderd",
 
     /*
      * 5.3.0
      */
-    "in_reply_to"               => "in reply to",
+    "in_reply_to"               => "als reactie op",
 
     /*
      * 5.7.0
      */
-    "comment_notification"      => "New Comment Posted",
-    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+    "comment_notification"      => "Nieuwe reactie geplaatst",
+    "comment_notification_desc" => "Waarschuwt u wanneer een nieuwe reactie wordt geplaatst op een selfservice-artikel.",
 
     /*
      * 5.7.5
      */
-    "published_desc"            => "Indien het artikel openbaar gemaakt is. Als het niet gepubliceerd is kan het nog steeds worden bekeken via de directe URL mits de categorie openbaar is.",
-    "not_published"             => "Not Published",
+    "published_desc"            => "Bepaalt of het artikel openbaar kan worden bekeken. Wanneer het is gepubliceerd maar niet aan een openbare categorie is gekoppeld, kan het alleen via de directe URL worden bekeken. Wanneer het niet is gepubliceerd, kan het op de frontend alleen worden bekeken door geauthenticeerde operators.",
+    "not_published"             => "Niet gepubliceerd",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Selecteer een pictogram dat op de frontend voor dit type wordt weergegeven. U kunt ook zoeken naar een aangepast pictogram dat niet in de standaardlijst voorkomt.",
+    "icon_book"                 => "Boek",
+    "icon_download"             => "Downloaden",
+    "icon_newspaper"            => "Krant",
 
 );

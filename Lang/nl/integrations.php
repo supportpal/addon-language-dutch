@@ -58,23 +58,23 @@ return array(
      * 5.4.1
      */
     "twilio_verify_sid"                => "Verificatie-SID",
-    "twilio_number_verification_desc"  => "Optioneel - Voer een verificatieservice-SID in om verificatie van telefoonnummers van gebruikers mogelijk te maken. Dit wordt aanbevolen om te voorkomen dat een gebruiker een willekeurig telefoonnummer invoert - de <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-service van Twilio is tegen betaling.",
-    "twilio_verify_countries"          => "Verify Allowed Countries",
-    "twilio_verify_countries_desc"     => "Restrict phone number verification to specific countries, to reduce costs and the risk of abuse. Phone numbers belonging to countries outside of the permitted list can be manually marked as verified by staff.",
+    "twilio_number_verification_desc"  => "Optioneel - Voer een verificatieservice-SID in om verificatie van telefoonnummers van gebruikers mogelijk te maken. Dit wordt aanbevolen om te voorkomen dat een gebruiker een willekeurig telefoonnummer invoert. De <a target='_blank' href='https://www.twilio.com/verify'>Verify</a>-service van Twilio is een betaalde dienst.",
+    "twilio_verify_countries"          => "Toegestane landen voor Verify",
+    "twilio_verify_countries_desc"     => "Beperk de verificatie van telefoonnummers tot specifieke landen om de kosten en het risico op misbruik te verminderen. Telefoonnummers uit landen die niet op de toegestane lijst staan, kunnen handmatig door medewerkers als geverifieerd worden gemarkeerd.",
 
     /*
      * 5.5.0
      */
-    "algolia_frontend_search_rate_limit" => "Frontend Search Rate Limiting",
-    "algolia_max_daily"                => "Daily Max Requests",
-    "algolia_max_daily_desc"           => "The maximum number of API calls that can be made to Algolia from the frontend.",
-    "algolia_max_min"                  => "Max Requests Per Minute",
-    "algolia_max_min_desc"             => "The maximum number of API calls that can be made to Algolia from the frontend, per authenticated user / IP address.",
+    "algolia_frontend_search_rate_limit" => "Snelheidslimiet voor frontend-zoekopdrachten",
+    "algolia_max_daily"                => "Maximaal aantal aanvragen per dag",
+    "algolia_max_daily_desc"           => "Het maximale aantal API-aanroepen dat vanuit de frontend naar Algolia kan worden gedaan.",
+    "algolia_max_min"                  => "Maximaal aantal aanvragen per minuut",
+    "algolia_max_min_desc"             => "Het maximale aantal API-aanroepen dat vanuit de frontend naar Algolia kan worden gedaan, per geauthenticeerde gebruiker/IP-adres.",
 
     /*
      * 5.7.0
      */
-    "microsoft_tenant_id"               => "Tenant ID",
-    "microsoft_tenant_id_desc"          => "If you are required to use a single tenant for supported account types, enter the tenant ID; otherwise, leave this field blank. The tenant ID can be found in the Microsoft Entra Identity overview.",
+    "microsoft_tenant_id"               => "Tenant-ID",
+    "microsoft_tenant_id_desc"          => "Als u één enkele tenant moet gebruiken voor ondersteunde accounttypen, voer dan de tenant-ID in. Laat dit veld anders leeg. De tenant-ID is te vinden in het overzicht van Microsoft Entra Identity.",
 
 );

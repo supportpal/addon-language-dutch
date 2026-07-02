@@ -83,9 +83,6 @@ return array(
     "help_php_extensions"       => "PHP-extensies verschillen afhankelijk van de server, hosting en andere systeemvariabele. Neem voor hulp bij het installeren van ontbrekende extensies contact op met uw hostingprovider of serverbeheerder.",
     "help_php_settings"         => "Lees voor aanvullende hulp <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Hulp bij PHP-instellingen</a>.",
     "disabled_functions"        => "Uitgeschakelde functies",
-    "help_mysql_version"        => "Neem voor hulp bij het installeren van een nieuwe versie van MySQL contact op met je hostingprovider of serverbeheerder.",
-    "mysql_version"             => "MySQL Versie",
-    "mysql_version_not_found"   => "Niet beschikbaar, gevonden MySQL-versie :version",
 
     /*
      * 2.1.0
@@ -110,7 +107,6 @@ return array(
      * 2.4.0
      */
     "mysql_server_version"      => "Server Versie >= :min",
-    "mysql_server_version_desc" => "MySQL :min of nieuwer vereist voor SupportPal. Gevonden: ':version'.",
 
     "upgrade_step"              => "Stap :num van :total: ",
     "accept_eula"               => "EULA accepteren",
@@ -195,7 +191,6 @@ return array(
      * 5.0.0
      */
     "mysql_client_version"      => "Client Versie >= :min (:mysqlnd_min voor MySQLnd)",
-    "mysql_client_version_desc" => "MySQL client versie :min of nieuwer (:mysqlnd_min for MySQLnd) vereist voor SupportPal. Gevonden: ':version'.",
     "post_install"              => "Om het systeem goed te laten functioneren, moet er een cron worden ingesteld. Lees onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>stappen na installatie</a> voor details over deze en andere aanbevolen acties om de functionaliteit en beveiliging te verbeteren.",
     "help_allowed_methods"      => "De webserver moet alle onderstaande HTTP-methoden toestaan. Raadpleeg onze <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nieuwe installatie</a> documentatie voor meer informatie.",
 
@@ -203,5 +198,16 @@ return array(
      * 5.3.0
      */
     "check_file_permissions"    => "Bestandsrechten checken...",
+
+    /*
+     * 6.0.0
+     */
+    "mysql_server_version_desc" => "Database-serverversie :min of hoger is vereist om SupportPal uit te voeren. Gevonden: ':version'.",
+    "help_mysql_version"        => "Neem contact op met uw hostingprovider of serverbeheerder voor hulp bij het installeren van een nieuwe versie van MySQL of een andere ondersteunde database.",
+    "mysql_version"             => "Databaseversie",
+    "mysql_version_not_found"   => "Niet beschikbaar, gevonden databaseversie: :version",
+    "mysql_client_version_desc" => "Databaseclientversie :min of hoger is vereist om SupportPal uit te voeren. Gevonden: ':version'.",
+    "update_failed"             => "Het bijwerken van de applicatie is mislukt.",
+    "attempting_to_restore"     => "Bezig met herstellen vanaf de back-up...",
 
 );
