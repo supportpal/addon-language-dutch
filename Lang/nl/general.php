@@ -291,7 +291,6 @@ return array(
     /*
      * 2.4.0
      */
-    "show_count_more"           => "Toon :count meer...",
     "manual"                    => "Handmatig",
     "automatic"                 => "Automatisch",
     "hook"                      => "Hook",
@@ -448,5 +447,14 @@ return array(
     "resize"                    => "Formaat wijzigen",
     "activity"                  => "Activiteit",
     "server"                    => "Server|Servers",
+
+    /*
+     * 6.1.0
+     */
+    "copy"                      => "Copy",
+    "copied"                    => "Copied",
+    "is_one_of"                 => "Is one of",
+    "is_not_one_of"             => "Is not one of",
+    "copy_now_shown_once"       => "Make sure to copy it now, you won't be able to see it again.",
 
 );

@@ -363,4 +363,9 @@ return array(
     "ticket_attachment_rejected"        => "Bijlage(n) :files geblokkeerd voor ticket #:rel vanwege een ongeldig bestandstype.",
     "timeline_ticket_attachment_rejected" => "Bijlage(n) :files geblokkeerd vanwege een ongeldig bestandstype",
 
+    /*
+     * 6.1.0
+     */
+    "system_update_started"             => "Started system update to version :rel.",
+
 );

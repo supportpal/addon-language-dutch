@@ -210,4 +210,10 @@ return array(
     "update_failed"             => "Het bijwerken van de applicatie is mislukt.",
     "attempting_to_restore"     => "Bezig met herstellen vanaf de back-up...",
 
+    /*
+     * 6.1.0
+     */
+    "freetype_support"          => "FreeType Support",
+    "upgrade_in_progress"       => "A system upgrade is in progress. The help desk will be unavailable until an administrator completes the upgrade. Please try again later.",
+
 );
