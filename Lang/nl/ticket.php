@@ -261,7 +261,6 @@ return array(
     "no_departments_found"      => "Geen afdelingen gevonden. Klik <a href=':route'>hier</a> om aan te maken",
     "no_operators_found"        => "Geen operators gevonden. Klik <a href=':route'>hier</a> om aan te maken",
     "change_priority"           => "Prioriteit wijzigen",
-    "add_tag"                   => "Tag toevoegen",
 
     "unlock"                    => "Ontgrendelen",
     "merged"                    => "Samengevoegd",
@@ -276,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "Als er een actieve SLA op dit ticket is, pauzeer dan de resterende tijd tot na de opvolgende datum. De uiterlijke datum begint pas weer als een antwoord of notitie aan het ticket is toegevoegd (inclusief de opvolgende)",
 
-    "add_cc"                    => "CC adres toevoegen",
     "reply_above_line"          => "Antwoord boven deze lijn alstublieft",
 
     "email_settings"            => "E-mail instellingen",
@@ -303,7 +301,6 @@ return array(
     "associate_response_tag"    => "Voeg tags toe aan het standaardantwoord...",
     "canned_response_tags_desc" => "Het toevoegen van tags kunnen helpen bij het vinden van een standaardantwoord bij het beantwoorden van een ticket.",
     "unassign_operator"         => "Operator ongedaan maken",
-    "remove_tag"                => "Tag verwijderen",
     "message_clipped"           => "[Bericht Geknipt]",
     "view_entire_message"       => "Volledig bericht openen",
     "no_custom_fields"          => "Geen eigen veld(en) gevonden. Klik <a href=':route'>here</a> om een aan te maken.",
@@ -412,7 +409,6 @@ return array(
     "forwarded_to"              => "Doorsturen naar",
     "new_operator_reply"        => "Nieuw operator Antwoord",
     "new_user_reply"            => "Nieuw gebruker Antwoord",
-    "add_bcc"                   => "BCC toevoegen",
     "at_least_one_recipient"    => "Geef ten minste één ontvanger op.",
     "forwarded_message"         => "---------- Doorgestuurd bericht ----------",
 
@@ -626,5 +622,10 @@ return array(
     "timeline_merging"          => "Samenvoegen, koppelen en splitsen",
     "max_requests_desc"         => "Stel het maximale aantal beschikbare tokens in voordat een gebruiker wordt beperkt door de snelheidslimiet. Hierbij kost het aanmaken van een nieuw ticket 3 tokens en een reactie op een bestaand ticket 1 token. Na afloop van de hersteltijd worden alle beschikbare tokens opnieuw aangevuld.",
     "decay_time_desc"           => "Het aantal minuten waarna de beschikbare tokens opnieuw worden ingesteld.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );
