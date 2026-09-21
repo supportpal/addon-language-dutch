@@ -684,7 +684,7 @@ return array(
     "country_list_aria_label"   => "Lijst met landen",
     "zero_search_results"       => "Geen resultaten gevonden",
     "one_search_result"         => "1 resultaat gevonden",
-    "multiple_search_results"   => "${count} resultaten gevonden", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "\${count} resultaten gevonden", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Geavanceerd",
     "table"                     => "Tabel",
     "cell"                      => "Cel",
