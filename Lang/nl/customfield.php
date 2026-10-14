@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Als het aangepaste veld moet worden ingevuld. Voor het selectievakje, de checklist of meerdere typen opties moet de gebruiker ten minste één optie selecteren.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** VERSLEUTELD **",
 );
